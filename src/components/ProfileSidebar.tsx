@@ -114,10 +114,10 @@ export const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ onOpenContact, o
 
         <div className="grid grid-cols-2 gap-2">
           <a
-            href="/Resume.pdf"
+            href="/Talvinder_Singh_Profile.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="Talvinder_Singh_Resume.pdf"
+            download="Talvinder_Singh_Profile.pdf"
             className="py-1.5 px-2 rounded-xl bg-[#181c28] hover:bg-emerald-500/10 text-slate-300 hover:text-emerald-400 border border-white/10 hover:border-emerald-500/30 text-[10.5px] font-medium transition-all flex items-center justify-center gap-1 cursor-pointer"
           >
             <Download className="w-3 h-3" />

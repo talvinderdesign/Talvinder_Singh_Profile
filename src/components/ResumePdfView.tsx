@@ -25,10 +25,10 @@ export const ResumePdfView: React.FC<ResumePdfViewProps> = ({ onClose }) => {
 
           <div className="flex items-center gap-3">
             <a
-              href="/Resume.pdf"
+              href="/Talvinder_Singh_Profile.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              download="Talvinder_Singh_Resume.pdf"
+              download="Talvinder_Singh_Profile.pdf"
               className="py-2 px-3.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-bold text-xs transition-colors flex items-center gap-2 cursor-pointer border border-amber-500/30"
             >
               <Download className="w-4 h-4" />
