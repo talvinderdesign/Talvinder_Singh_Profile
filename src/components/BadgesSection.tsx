@@ -2,6 +2,26 @@ import React from 'react';
 import { Award, ExternalLink, CheckCircle2 } from 'lucide-react';
 import { EY_BADGES } from '../data/resumeData';
 
+// Vite static asset imports for robust bundling across Vercel and production deployments
+import eyAiBadge from '../assets/images/badges/ey-ai-2025.png';
+import eyCyberBadge from '../assets/images/badges/ey-cybersecurity-2024.png';
+import eyInnovationBadge from '../assets/images/badges/ey-innovation-2021.png';
+import eyDigitalBadge from '../assets/images/badges/ey-digital-2021.png';
+
+const assetBadgeMap: Record<string, string> = {
+  'badge-ai-2025': eyAiBadge,
+  'badge-cyber-2024': eyCyberBadge,
+  'badge-innovation-2021': eyInnovationBadge,
+  'badge-digital-2021': eyDigitalBadge,
+};
+
+const fallbackImageMap: Record<string, string[]> = {
+  'badge-ai-2025': ['/badges/ey-ai-2025.png', '/Artificial intelligence badge.png'],
+  'badge-cyber-2024': ['/badges/ey-cybersecurity-2024.png', '/cybersecurity badge.png'],
+  'badge-innovation-2021': ['/badges/ey-innovation-2021.png', '/Innovation badge.png'],
+  'badge-digital-2021': ['/badges/ey-digital-2021.png', '/digital badge.png'],
+};
+
 interface BadgesSectionProps {
   onVerifyBadge?: (url: string) => void;
 }
@@ -27,50 +47,63 @@ export const BadgesSection: React.FC<BadgesSectionProps> = () => {
 
       {/* Badges Grid displaying full original badges */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        {EY_BADGES.map((badge) => (
-          <div 
-            key={badge.id}
-            className="group relative p-5 rounded-2xl bg-[#12151e]/90 border border-emerald-500/20 hover:border-amber-500/50 transition-all duration-300 flex flex-col justify-between items-center text-center space-y-4 hover:shadow-[0_0_25px_rgba(217,145,57,0.15)]"
-          >
-            <div className="w-full space-y-3 flex flex-col items-center">
-              {/* Badge Category Tag */}
-              <span className="text-[10px] font-mono text-emerald-400 px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-                {badge.year} • {badge.type}
-              </span>
+        {EY_BADGES.map((badge) => {
+          const initialSrc = assetBadgeMap[badge.id] || badge.imageUrl;
 
-              {/* Original Unaltered Official EY Badge Image */}
-              <div className="py-2 flex justify-center items-center h-44 w-full">
-                <img 
-                  src={badge.imageUrl} 
-                  alt={badge.title}
-                  className="max-h-40 w-auto max-w-full object-contain filter drop-shadow-md group-hover:scale-105 transition-transform duration-300"
-                  referrerPolicy="no-referrer"
-                />
+          return (
+            <div 
+              key={badge.id}
+              className="group relative p-5 rounded-2xl bg-[#12151e]/90 border border-emerald-500/20 hover:border-amber-500/50 transition-all duration-300 flex flex-col justify-between items-center text-center space-y-4 hover:shadow-[0_0_25px_rgba(217,145,57,0.15)]"
+            >
+              <div className="w-full space-y-3 flex flex-col items-center">
+                {/* Badge Category Tag */}
+                <span className="text-[10px] font-mono text-emerald-400 px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">
+                  {badge.year} • {badge.type}
+                </span>
+
+                {/* Original Unaltered Official EY Badge Image */}
+                <div className="py-2 flex justify-center items-center h-44 w-full">
+                  <img 
+                    src={initialSrc} 
+                    alt={badge.title}
+                    className="max-h-40 w-auto max-w-full object-contain filter drop-shadow-md group-hover:scale-105 transition-transform duration-300"
+                    referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      const fallbacks = fallbackImageMap[badge.id] || [];
+                      const step = parseInt(target.dataset.fallbackStep || '0', 10);
+                      if (step < fallbacks.length) {
+                        target.dataset.fallbackStep = String(step + 1);
+                        target.src = fallbacks[step];
+                      }
+                    }}
+                  />
+                </div>
+
+                <h3 className="text-sm font-bold text-white group-hover:text-amber-300 transition-colors px-1">
+                  {badge.title}
+                </h3>
+
+                {badge.description && (
+                  <p className="text-[11px] text-slate-400 leading-snug">
+                    {badge.description}
+                  </p>
+                )}
               </div>
 
-              <h3 className="text-sm font-bold text-white group-hover:text-amber-300 transition-colors px-1">
-                {badge.title}
-              </h3>
-
-              {badge.description && (
-                <p className="text-[11px] text-slate-400 leading-snug">
-                  {badge.description}
-                </p>
-              )}
+              {/* Verify CTA */}
+              <a
+                href={badge.verifyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-2 px-3 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 hover:text-amber-200 border border-amber-500/30 hover:border-amber-500/50 text-xs font-mono transition-all flex items-center justify-center gap-1.5 cursor-pointer mt-2"
+              >
+                <span>Verify Credly Badge</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
             </div>
-
-            {/* Verify CTA */}
-            <a
-              href={badge.verifyUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full py-2 px-3 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 hover:text-amber-200 border border-amber-500/30 hover:border-amber-500/50 text-xs font-mono transition-all flex items-center justify-center gap-1.5 cursor-pointer mt-2"
-            >
-              <span>Verify Credly Badge</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {/* Achiever Extraordinaire Highlight Box */}
