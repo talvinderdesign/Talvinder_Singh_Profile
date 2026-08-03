@@ -30,6 +30,18 @@ export const AboutSection: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
           <div className="flex items-center gap-3">
+            <div className="p-2.5 rounded-xl bg-purple-500/10 text-purple-400">
+              <Palette className="w-5 h-5" />
+            </div>
+            <h3 className="text-lg font-semibold text-white">Marketing Design & Multimedia Champion</h3>
+          </div>
+          <p className="text-xs text-slate-400 leading-relaxed">
+            Delivering high-impact graphic design, intuitive UX/UI product experiences, corporate video creation and motion editing, and multi-channel marketing collateral for global brands.
+          </p>
+        </div>
+
+        <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
+          <div className="flex items-center gap-3">
             <div className="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400">
               <Cpu className="w-5 h-5" />
             </div>
@@ -49,18 +61,6 @@ export const AboutSection: React.FC = () => {
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
             Designing highly scalable SharePoint Online (O365) platforms for enterprise service lines, ensuring information architecture, brand adherence, and robust security compliance.
-          </p>
-        </div>
-
-        <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
-          <div className="flex items-center gap-3">
-            <div className="p-2.5 rounded-xl bg-purple-500/10 text-purple-400">
-              <Palette className="w-5 h-5" />
-            </div>
-            <h3 className="text-lg font-semibold text-white">Marketing Design & Multimedia Champion</h3>
-          </div>
-          <p className="text-xs text-slate-400 leading-relaxed">
-            Crafting 360-degree marketing campaigns, digital visual assets, corporate video edits, audio production, and brand identity systems across global enterprise ecosystems.
           </p>
         </div>
 
