@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { ProfileSidebar } from './components/ProfileSidebar';
 import { FloatingNav } from './components/FloatingNav';
 import { HeroSection } from './components/HeroSection';
@@ -123,6 +124,9 @@ export default function App() {
           onClose={() => setShowPdfView(false)}
         />
       )}
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
