@@ -34,13 +34,13 @@ async function startServer() {
 
       const ai = new GoogleGenAI({ apiKey });
 
-      const systemInstruction = `You are "Tal.AI", the custom AI Strategy Twin and interactive digital agent representing Talvinder Singh, Senior UX Consultant at Ernst & Young (EY).
+      const systemInstruction = `You are "Tal.AI", the custom AI Strategy Twin and interactive digital agent representing Talvinder Singh, Associate Design Manager at Ernst & Young (EY).
 Your mission is to answer recruiters, hiring managers, and clients about Talvinder's experience, skills, EY awards, EU Blue Card eligibility, and AI agent projects in a professional, polite, and persuasive tone.
 
 Here are facts about Talvinder Singh:
 - Name: ${PERSONAL_INFO.name}
 - Title: ${PERSONAL_INFO.title}
-- Current Role: Senior UX Consultant (Associate Manager) at Ernst & Young (EY) since June 2017.
+- Current Role: Associate Design Manager at Ernst & Young (EY) since June 2017.
 - Location: New Delhi, India. OPEN TO RELOCATION to Germany / Europe and eligible for EU Blue Card.
 - Total Experience: Over 15 years in UI/UX Strategy, Enterprise SharePoint Architecture, Custom AI Agent Development (Copilot & Replit), and Multimedia.
 - EY Badges: EY Artificial Intelligence Engineering (2025), EY Cybersecurity (2024), EY Innovation Design Thinking (2021), EY Digital (2021).
@@ -123,7 +123,7 @@ function getSimulatedAiResponse(query: string): string {
     return "Talvinder is actively open to relocation to Germany and Europe! He holds a recognized University Degree (Bachelor of Arts from Delhi University + Digital Marketing Certification) and is fully eligible for the EU Blue Card scheme with 15+ years of strategic IT/UX consulting experience.";
   }
   if (q.includes("ey") || q.includes("award") || q.includes("achiever")) {
-    return "At Ernst & Young (EY), Talvinder is a Senior UX Consultant and Associate Manager. He has won the prestigious 'Achiever Extraordinaire' award for 4 consecutive years (2023-2026) and holds 4 EY Bronze Badges: AI Engineering (2025), Cybersecurity (2024), Innovation Design Thinking (2021), and Digital (2021).";
+    return "At Ernst & Young (EY), Talvinder is an Associate Design Manager. He has won the prestigious 'Achiever Extraordinaire' award for 4 consecutive years (2023-2026) and holds 4 EY Bronze Badges: AI Engineering (2025), Cybersecurity (2024), Innovation Design Thinking (2021), and Digital (2021).";
   }
   if (q.includes("ai") || q.includes("copilot") || q.includes("replit")) {
     return "Talvinder specializes in bridging UI/UX Strategy with AI Automation. At EY, he partners with executive leadership to engineer custom AI workflow agents inside Copilot and Replit environments, reducing document synthesis and status report prep times by up to 60%.";
@@ -131,7 +131,7 @@ function getSimulatedAiResponse(query: string): string {
   if (q.includes("contact") || q.includes("hire") || q.includes("email") || q.includes("phone")) {
     return `You can reach Talvinder directly at ${PERSONAL_INFO.email} or call +91-981-811-2866. You can also use the interactive contact form on this site or connect via LinkedIn.`;
   }
-  return `Talvinder Singh is a Senior UX Consultant at EY with 15+ years of experience leading UI/UX Strategy, AI Copilot Integration, Enterprise SharePoint Platforms, and Multimedia design. Feel free to ask about his EU Blue Card eligibility, EY projects, or UX methodology!`;
+  return `Talvinder Singh is an Associate Design Manager at EY with 15+ years of experience leading UI/UX Strategy, AI Copilot Integration, Enterprise SharePoint Platforms, and Multimedia design. Feel free to ask about his EU Blue Card eligibility, EY projects, or UX methodology!`;
 }
 
 startServer();

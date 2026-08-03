@@ -69,7 +69,7 @@ export const AiTwinSection: React.FC = () => {
       const errorMsg: ChatMessage = {
         id: `ai-err-${Date.now()}`,
         sender: 'ai',
-        text: "Talvinder holds 15+ years of Senior UX Consultant experience at EY, leading AI workflow agents (Copilot/Replit) and SharePoint architecture. He is eligible for Germany EU Blue Card relocation. Feel free to contact him at talvinder8689@gmail.com!",
+        text: "Talvinder holds 15+ years of experience as Associate Design Manager at EY, leading AI workflow optimization and enterprise UX architecture. He is eligible for Germany EU Blue Card relocation. Feel free to contact him at talvinder8689@gmail.com!",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       };
       setMessages(prev => [...prev, errorMsg]);
@@ -112,7 +112,7 @@ export const AiTwinSection: React.FC = () => {
                 </span>
               </div>
               <div className="text-[11px] text-slate-400">
-                Senior UX Consultant (Associate Design Manager)
+                Associate Design Manager @ EY
               </div>
             </div>
           </div>

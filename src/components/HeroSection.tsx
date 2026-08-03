@@ -23,15 +23,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onOpenPdf 
 
       {/* Main Title & Subtitle */}
       <div className="space-y-6">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-white leading-[1.15]">
-          Architecting <br className="hidden sm:inline" />
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white leading-[1.2]">
+          Driving 15 years of graphic design and UX strategy,{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 font-semibold">
-            Enterprise UX & Autonomous AI Workflows.
+            actively leveraging AI tools to accelerate workflows and scale creative output.
           </span>
         </h1>
 
         <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-3xl">
-          With over <span className="text-emerald-400 font-semibold">15 years</span> of experience at the intersection of creativity, strategy, and technology, I specialize in transforming complex business problems into intuitive, high-impact digital experiences. As a Senior UX Consultant at <strong className="text-white">EY</strong>, I work with cross-functional teams to deliver scalable solutions—from enterprise-grade dashboards to consumer-facing mobile products—that drive measurable ROI and brand loyalty.
+          With over <span className="text-emerald-400 font-semibold">15 years</span> of deep expertise bridging graphic design craft and user-centric UX strategy, I leverage AI-driven workflows to streamline creative assets, scale digital output, and enhance design precision. As an Associate Design Manager at <strong className="text-white">EY</strong>, I combine strategic vision with advanced generative AI tools to accelerate design velocity, elevate visual quality, and deliver high-impact digital experiences — open to international opportunities (Germany / EU Blue Card eligible).
         </p>
       </div>
 

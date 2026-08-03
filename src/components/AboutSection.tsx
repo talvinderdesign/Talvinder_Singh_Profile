@@ -22,7 +22,7 @@ export const AboutSection: React.FC = () => {
           {PERSONAL_INFO.bio}
         </p>
         <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-          My background goes far beyond traditional UX; it is deeply rooted in directing cross-functional teams and managing global client portfolios across the tech, FMCG, and FMEG sectors. Whether I am steering global stakeholder communications, mentoring and leading multidisciplinary design teams, or integrating next-generation AI solutions, I operate not just as a contributor, but as a dedicated business partner invested in long-term scale and innovation.
+          My background goes far beyond traditional UX; it bridges strategic design management, enterprise UX architecture, and AI-powered product efficiency across global tech, FMCG, and consulting sectors. Whether establishing design systems, streamlining cross-functional workflows, or leveraging cutting-edge AI tools to elevate delivery velocity, I operate as a strategic partner dedicated to scalability, precision, and business ROI.
         </p>
       </div>
 
@@ -85,7 +85,7 @@ export const AboutSection: React.FC = () => {
         </div>
         <div>
           <span className="text-slate-300 font-semibold uppercase block mb-1">Current Role</span>
-          <span className="text-emerald-400 font-semibold">Senior UX Consultant @ EY</span>
+          <span className="text-emerald-400 font-semibold">Associate Design Manager @ EY</span>
         </div>
         <div>
           <span className="text-slate-300 font-semibold uppercase block mb-1">Location</span>

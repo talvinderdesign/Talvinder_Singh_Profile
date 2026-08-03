@@ -2,19 +2,19 @@ import { ExperienceItem, EducationItem, SkillCategory, EyBadge, ProjectItem } fr
 
 export const PERSONAL_INFO = {
   name: "Talvinder Singh",
-  title: "Senior UX Consultant | UI/UX Strategy & AI Integration",
+  title: "Associate Design Manager | Graphic Design, UX Strategy & AI Workflow Acceleration",
   company: "Ernst & Young Global Limited (EY)",
-  location: "New Delhi, India",
+  location: "New Delhi, India (Relocation Ready to Germany / EU)",
   phone: "+91-981-811-2866",
   email: "talvinder8689@gmail.com",
   linkedIn: "https://www.linkedin.com/in/talvindersingh8189/",
   portfolioUrl: "https://sites.google.com/view/talvindersinghportfolio",
-  status: "Available for EU Relocation & Global Consulting",
+  status: "Available for EU Relocation (Germany EU Blue Card Eligible)",
   yearsExperience: "15+",
   projectsCompleted: "40+",
   eyAwardsCount: "5+",
   clientSatisfaction: "100%",
-  bio: "With over 15 years of experience at the intersection of creativity, strategy, and technology, I specialize in transforming complex business problems into intuitive, high-impact digital experiences. As a Senior UX Consultant at EY, I work with cross-functional teams to deliver scalable solutions—from enterprise-grade dashboards to consumer-facing mobile products—that drive measurable ROI and brand loyalty."
+  bio: "With over 15 years of deep expertise bridging hands-on graphic design and user-centric UX strategy, I leverage a strong command of modern AI tools to accelerate creative workflows, scale digital production, and enhance design precision. As an Associate Design Manager at EY, I combine strategic vision with advanced AI tools to boost design velocity, elevate visual quality, and deliver high-impact digital experiences."
 };
 
 export const EY_BADGES: EyBadge[] = [
@@ -83,68 +83,84 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "exp-ey",
     company: "Ernst & Young Global Limited",
+    website: "https://www.ey.com/en_in",
     location: "Gurgaon, India",
-    role: "Senior UX Consultant (Associate Manager)",
+    role: "Associate Design Manager",
     period: "06/2017 – Present",
     award: "Achiever Extraordinaire (2023-2026)",
     highlights: [
-      "Act as a technical architect and UI/UX lead, designing and developing enterprise-ready SharePoint platforms for the Consulting service line to ensure highly scalable information architecture.",
-      "Partner directly with EY leadership to accelerate prototyping and automate complex workflows by engineering custom AI agents within Copilot and Replit environments.",
-      "Lead cross-functional digital strategy initiatives, utilizing tools like Figma, Adobe Creative Cloud, and Miro to facilitate design workshops and gather live stakeholder feedback.",
-      "Take full ownership of end-to-end project lifecycles, ensuring 100% accuracy, strict brand adherence, and on-time delivery across global service lines.",
-      "Serve as a core technical expert and EY brand ambassador, actively mentoring and guiding multidisciplinary teams to elevate their UX capabilities."
+      "Lead high-impact graphic design, visual branding, and user-centric UX/UI strategies across enterprise platforms, directly aligning visual craft with business KPIs.",
+      "Partner with global EY leadership as a strategic advisor, translating complex business requirements into intuitive digital products and high-impact brand solutions.",
+      "Pioneer AI-augmented workflows and custom agent prototyping in Copilot and Replit environments, significantly accelerating creative velocity and product delivery.",
+      "Architect scalable design systems, enterprise SharePoint platforms, and interactive digital assets for global service lines.",
+      "Serve as a core EY Brand Ambassador, leading digital accessibility (WCAG compliance) initiatives and high-end print media production while mentoring design teams.",
+      "Orchestrate cross-functional collaboration across engineering, product management, and business units, validating design choices with performance metrics to drive business ROI."
     ],
-    skills: ["UX Strategy", "AI Agents", "Copilot", "SharePoint Online", "Figma", "Enterprise Architecture", "Miro"]
+    skills: ["Graphic Design", "UI/UX Design", "AI Workflow Acceleration", "SharePoint Online", "Adobe Creative Cloud", "Figma", "Brand Strategy"]
   },
   {
     id: "exp-wns",
     company: "WNS Global Services Pvt. Ltd.",
+    website: "https://www.wns.com/",
     location: "Gurgaon, India",
-    role: "Deputy Manager",
+    role: "Deputy Manager Design",
     period: "06/2014 – 06/2017",
     highlights: [
-      "Directed a team of 8 design professionals, taking full responsibility for resource planning, project estimation, and delivery schedules for USA & UK clients.",
-      "Conceptualized and drove comprehensive brand strategies across diverse product lines, ensuring exceptional visual output.",
-      "Led the design and execution of major digital campaigns, including microsites, promotional videos, and digital search banners."
+      "Led and mentored a multidisciplinary team of designers and developers, driving agile project execution for key US, UK, and European enterprise accounts.",
+      "Served as strategic design lead for a major UK retail brand, overseeing end-to-end e-commerce experiences, product packaging, and nationwide digital campaigns.",
+      "Spearheaded omnichannel visual initiatives, including smartscreen video animations, interactive microsites, and in-store point-of-sale displays.",
+      "Architected executive pitch decks, corporate presentations, and product promotional videos that connected creative storytelling with core business goals.",
+      "Managed multi-platform content lifecycles and web operations, ensuring flawless brand consistency across web, print, video, and social channels."
     ],
-    skills: ["Team Leadership (8 Designers)", "USA & UK Client Accounts", "Brand Strategy", "Microsites", "Digital Campaigns"]
+    skills: ["Team Leadership", "Key Account Strategy", "Omnichannel Campaigns", "Executive Presentations", "Multimedia & Video", "Brand Operations"]
   },
   {
     id: "exp-orient",
     company: "Orient Electricals",
+    website: "https://orientelectric.com/",
     location: "Noida, India",
     role: "Executive Graphic Designer",
     period: "08/2013 – 06/2014",
     highlights: [
-      "Executed comprehensive graphic design projects with a heavy focus on brand building and physical product marketing.",
-      "Ensured all design files, print materials, and packaging layouts were perfectly optimized for pre-press and met strict corporate guidelines prior to final production."
+      "Led end-to-end ATL, BTL, and TTL marketing campaigns, shaping product packaging, large-format outdoor media, in-store kiosks, and transit signage.",
+      "Mentored and managed a 3-member design team, streamlining creative workflows, setting timelines, and keeping output tightly aligned with business goals.",
+      "Managed digital channels, website operations, and UI design for Android and iOS mobile apps during key product rollouts and promotional offers.",
+      "Oversaw end-to-end print production and quality control, visiting production plants across India to ensure exact color accuracy, material quality, and brand standards.",
+      "Partnered with global sales, marketing, and logistics teams to coordinate branch requirements and drive smooth dispatch of POP/POS materials for major dealer events."
     ],
-    skills: ["Brand Building", "Product Packaging", "Pre-Press Optimization", "Corporate Guidelines", "Print Collaterals"]
+    skills: ["ATL/BTL/TTL Campaigns", "Team Leadership", "Packaging & Print Production", "Mobile App UI", "Quality Control", "POP/POS Logistics"]
   },
   {
     id: "exp-havells",
     company: "Havells India LTD",
+    website: "https://havells.com/",
     location: "Noida, India",
     role: "Senior Graphic Designer",
     period: "02/2012 – 08/2013",
     highlights: [
-      "Managed brand visualization for Domestic Appliances and Fans at one of India's top FMEG players, handling all print-related initiatives from initial concept through to final physical output.",
-      "Designed high-impact collaterals (packaging, hoardings, posters, brochures) using the Adobe Creative Suite.",
-      "Coordinated closely with internal teams and external vendors on the production floor to ensure strict color accuracy and material specifications."
+      "Conceptualized and executed end-to-end ATL and BTL campaigns for domestic appliances and fans, spanning national outdoor media, transit advertising, retail kiosks, and product packaging.",
+      "Governed digital experience touchpoints across official websites, mobile apps, and social channels to enhance product discovery and brand engagement.",
+      "Directed the full print production lifecycle and packaging operations, partnering with domestic and global vendors to ensure exact color fidelity and material specifications.",
+      "Coordinated with sales teams, regional branches, and warehouses to streamline the logistics and nationwide dispatch of POP/POS collaterals for major product launches.",
+      "Mentored a 3-member design team, managing project timelines, resource allocation, and interactive prototyping to consistently deliver high-impact visual assets."
     ],
-    skills: ["FMEG Marketing", "Large Format Hoardings", "Packaging Layouts", "Adobe Creative Suite", "Vendor Coordination"]
+    skills: ["ATL/BTL Campaigns", "Product Packaging", "Team Leadership", "Vendor & Print Governance", "Digital Touchpoints", "POP/POS Logistics"]
   },
   {
     id: "exp-spice",
     company: "Spice Labs",
+    website: "https://spice-connect.com/about/",
     location: "Noida, India",
     role: "Creative Graphic Designer",
     period: "12/2010 – 02/2012",
     highlights: [
-      "Served as a creative lead in the fast-paced mobile sector, producing a high volume of both enterprise ready digital assets and physical print collaterals.",
-      "Leveraged Photoshop, Illustrator, and InDesign to deliver production-ready designs for roadshows, promotional posters, and standees."
+      "Spearheaded the end-to-end UI/UX design lifecycle for 15+ iOS and Android applications, translating user research and feedback into wireframes, user flows, and interactive storyboards.",
+      "Designed eye-catching app store assets and lightweight UI graphics that enhanced store optimization, driving higher download rates and user retention.",
+      "Partnered closely with project managers, developers, and QA teams to navigate iOS/Android platform constraints and deliver seamless app enhancements on schedule.",
+      "Produced comprehensive UX flow decks and dynamic product promotional videos with voiceovers to effectively communicate design concepts to executive leadership and engineering teams.",
+      "Delivered omnichannel marketing collaterals—including roadshow graphics, standees, posters, and web assets—to support nationwide mobile app launches."
     ],
-    skills: ["Mobile UI Collateral", "Digital & Print Assets", "Photoshop", "Illustrator", "InDesign"]
+    skills: ["Mobile UI/UX Design", "App Store Optimization", "Wireframing & Prototyping", "Multimedia Production", "Cross-Functional Collaboration", "Print & Marketing Assets"]
   }
 ];
 

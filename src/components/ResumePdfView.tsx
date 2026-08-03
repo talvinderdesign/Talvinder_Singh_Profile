@@ -105,7 +105,22 @@ export const ResumePdfView: React.FC<ResumePdfViewProps> = ({ onClose }) => {
                   <span className="font-bold text-white text-sm">{exp.role}</span>
                   <span className="text-xs font-mono text-emerald-400">{exp.period}</span>
                 </div>
-                <div className="text-xs font-semibold text-slate-300">{exp.company} • {exp.location}</div>
+                <div className="text-xs font-semibold text-slate-300 flex items-center gap-1.5">
+                  {exp.website ? (
+                    <a
+                      href={exp.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-emerald-400 hover:underline"
+                    >
+                      {exp.company}
+                    </a>
+                  ) : (
+                    <span>{exp.company}</span>
+                  )}
+                  <span>•</span>
+                  <span>{exp.location}</span>
+                </div>
                 <ul className="space-y-1 pt-1 text-slate-300">
                   {exp.highlights.map((h, i) => (
                     <li key={i} className="flex items-start gap-2">

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Briefcase, GraduationCap, Calendar, MapPin, Award, ChevronDown, ChevronUp, CheckCircle2 } from 'lucide-react';
+import { Briefcase, GraduationCap, Calendar, MapPin, Award, ChevronDown, ChevronUp, CheckCircle2, ExternalLink } from 'lucide-react';
 import { EXPERIENCES, EDUCATIONS, EY_AWARDS } from '../data/resumeData';
 
 export const ResumeSection: React.FC = () => {
@@ -82,7 +82,21 @@ export const ResumeSection: React.FC = () => {
                         {exp.role}
                       </h3>
                       <div className="flex items-center gap-3 text-xs text-slate-400 font-medium">
-                        <span className="text-emerald-400">{exp.company}</span>
+                        {exp.website ? (
+                          <a
+                            href={exp.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className="text-emerald-400 hover:text-emerald-300 hover:underline inline-flex items-center gap-1 font-semibold transition-colors"
+                            title={`Visit ${exp.company} website`}
+                          >
+                            <span>{exp.company}</span>
+                            <ExternalLink className="w-3 h-3 text-emerald-400/80" />
+                          </a>
+                        ) : (
+                          <span className="text-emerald-400">{exp.company}</span>
+                        )}
                         <span>•</span>
                         <span className="flex items-center gap-1"><MapPin className="w-3 h-3 text-slate-500" />{exp.location}</span>
                       </div>

@@ -28,7 +28,7 @@ export const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ onOpenContact, o
               <div className="w-full h-full rounded-[14px] bg-[#0d0f17] flex items-center justify-center overflow-hidden relative">
                 <img
                   src="/profile%20image.png"
-                  alt="Talvinder Singh - Senior UX Consultant"
+                  alt="Talvinder Singh - Associate Design Manager"
                   className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
                   onError={(e) => {
@@ -43,10 +43,10 @@ export const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ onOpenContact, o
               {PERSONAL_INFO.name}
             </h1>
             <p className="text-[10px] font-semibold text-emerald-400 uppercase tracking-wider mb-1.5">
-              Senior UX Consultant @ EY
+              Associate Design Manager @ EY
             </p>
             <p className="text-[10.5px] text-slate-400 leading-snug">
-              AI-Augmented Design Strategy | 15+ Years Transforming Complex Business Problems into Intuitive AI-Driven Products
+              Graphic Design, UX/UI Product Design, Multimedia Design & AI Integration
             </p>
           </div>
         </div>

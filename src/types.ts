@@ -4,6 +4,7 @@ export interface ExperienceItem {
   location: string;
   role: string;
   period: string;
+  website?: string;
   highlights: string[];
   skills: string[];
   award?: string;
