@@ -92,147 +92,462 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
   },
   {
     "id": "ux-design-1",
-    "url": "/ux-design/722357_haibhhsr0ctli2qyvvmcykswg.jpg",
-    "title": "UX/UI Designs Asset - Haibhhsr0ctli2qyvvmcykswg",
+    "url": "/ux-design/11-%20Menu.png",
+    "title": "Mobile Banking & Fintech - Navigation Menu UX",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Haibhhsr0ctli2qyvvmcykswg"
+    "caption": "Mobile Banking & Fintech - Navigation Menu UX"
   },
   {
     "id": "ux-design-2",
-    "url": "/ux-design/722357_jpqxkz0z9eq63xkwwljyr8wiu.jpg",
-    "title": "UX/UI Designs Asset - Jpqxkz0z9eq63xkwwljyr8wiu",
+    "url": "/ux-design/12-%20Send%20money%20(Amount).png",
+    "title": "Mobile Banking - Send Money Amount Selection",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Jpqxkz0z9eq63xkwwljyr8wiu"
+    "caption": "Mobile Banking - Send Money Amount Selection"
   },
   {
     "id": "ux-design-3",
-    "url": "/ux-design/722357_lvehikeix4y_kmy0ibzd26hu0.jpg",
-    "title": "UX/UI Designs Asset - Lvehikeix4y kmy0ibzd26hu0",
+    "url": "/ux-design/13-%20Send%20money.png",
+    "title": "Fintech App - Money Transfer & Recipient Selection",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Lvehikeix4y kmy0ibzd26hu0"
+    "caption": "Fintech App - Money Transfer & Recipient Selection"
   },
   {
     "id": "ux-design-4",
-    "url": "/ux-design/722357_mk5x7ehbymdpf8n8r3wbs6dnl.jpg",
-    "title": "UX/UI Designs Asset - Mk5x7ehbymdpf8n8r3wbs6dnl",
+    "url": "/ux-design/14-%20Verification.png",
+    "title": "Security & 2FA Identity Verification Screen",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Mk5x7ehbymdpf8n8r3wbs6dnl"
+    "caption": "Security & 2FA Identity Verification Screen"
   },
   {
     "id": "ux-design-5",
-    "url": "/ux-design/722357_pl5nehz0tjpljolkv8lky0fkp.jpg",
-    "title": "UX/UI Designs Asset - Pl5nehz0tjpljolkv8lky0fkp",
+    "url": "/ux-design/15-%20Code.png",
+    "title": "Mobile Banking - OTP Code Verification Interface",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Pl5nehz0tjpljolkv8lky0fkp"
+    "caption": "Mobile Banking - OTP Code Verification Interface"
   },
   {
     "id": "ux-design-6",
-    "url": "/ux-design/722357_sjpcb8km0js5ns2oi6yx_kend.jpg",
-    "title": "UX/UI Designs Asset - Sjpcb8km0js5ns2oi6yx kend",
+    "url": "/ux-design/16-%20Receit.png",
+    "title": "Digital Wallet - Transaction Receipt & Confirmation",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Sjpcb8km0js5ns2oi6yx kend"
+    "caption": "Digital Wallet - Transaction Receipt & Confirmation"
   },
   {
     "id": "ux-design-7",
-    "url": "/ux-design/722357_xmywp7sgbj4qskjndxkfalrq0.jpg",
-    "title": "UX/UI Designs Asset - Xmywp7sgbj4qskjndxkfalrq0",
+    "url": "/ux-design/17-%20Cards.png",
+    "title": "Card Management & Wallet - Debit/Credit Cards",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Xmywp7sgbj4qskjndxkfalrq0"
+    "caption": "Card Management & Wallet - Debit/Credit Cards"
   },
   {
     "id": "ux-design-8",
-    "url": "/ux-design/Tesco%201.jpg",
-    "title": "UX/UI Designs Asset - Tesco 1",
+    "url": "/ux-design/18-%20Add%20new%20card.png",
+    "title": "Payment Gateway - Add New Card & Onboarding",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 1"
+    "caption": "Payment Gateway - Add New Card & Onboarding"
   },
   {
     "id": "ux-design-9",
-    "url": "/ux-design/Tesco%202.jpg",
-    "title": "UX/UI Designs Asset - Tesco 2",
+    "url": "/ux-design/19-%20Transactions.png",
+    "title": "Financial Dashboard - Transaction History Analytics",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 2"
+    "caption": "Financial Dashboard - Transaction History Analytics"
   },
   {
     "id": "ux-design-10",
-    "url": "/ux-design/Tesco%203.jpg",
-    "title": "UX/UI Designs Asset - Tesco 3",
+    "url": "/ux-design/20-%20Top%20up.png",
+    "title": "Digital Wallet - Balance Top-Up & Quick Refill",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 3"
+    "caption": "Digital Wallet - Balance Top-Up & Quick Refill"
   },
   {
     "id": "ux-design-11",
-    "url": "/ux-design/Tesco%204.jpg",
-    "title": "UX/UI Designs Asset - Tesco 4",
+    "url": "/ux-design/23-%20Bill%20payment.png",
+    "title": "Utilities & Recurring Bill Payment Hub",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 4"
+    "caption": "Utilities & Recurring Bill Payment Hub"
   },
   {
     "id": "ux-design-12",
-    "url": "/ux-design/Tesco%205.jpg",
-    "title": "UX/UI Designs Asset - Tesco 5",
+    "url": "/ux-design/24-%20Loans.png",
+    "title": "Personal Loans & Credit Rating Interface",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 5"
+    "caption": "Personal Loans & Credit Rating Interface"
   },
   {
     "id": "ux-design-13",
-    "url": "/ux-design/Tesco%206.jpg",
-    "title": "UX/UI Designs Asset - Tesco 6",
+    "url": "/ux-design/25-%20Budget.png",
+    "title": "Financial Planning & Personal Budget Tracker",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 6"
+    "caption": "Financial Planning & Personal Budget Tracker"
   },
   {
     "id": "ux-design-14",
-    "url": "/ux-design/Tesco%207.jpg",
-    "title": "UX/UI Designs Asset - Tesco 7",
+    "url": "/ux-design/Frame%2053.png",
+    "title": "Interactive App Architecture - Mobile Flow Showcase",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 7"
+    "caption": "Interactive App Architecture - Mobile Flow Showcase"
   },
   {
     "id": "ux-design-15",
-    "url": "/ux-design/Tesco%208.jpg",
-    "title": "UX/UI Designs Asset - Tesco 8",
+    "url": "/ux-design/Frame%2054.png",
+    "title": "Interactive App Architecture - Feature Highlights Dashboard",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 8"
+    "caption": "Interactive App Architecture - Feature Highlights Dashboard"
   },
   {
     "id": "ux-design-16",
-    "url": "/ux-design/Tesco%209.jpg",
-    "title": "UX/UI Designs Asset - Tesco 9",
+    "url": "/ux-design/iPhone%2016%20Pro%20Max%20-%208-1.png",
+    "title": "Mobile App Experience - Onboarding & Welcome Flow",
     "category": "ux-design",
     "categoryLabel": "UX/UI Designs",
     "client": "Tesco PLC / Mobile App Studio",
-    "caption": "UX/UI Designs Asset - Tesco 9"
+    "caption": "Mobile App Experience - Onboarding & Welcome Flow"
+  },
+  {
+    "id": "ux-design-17",
+    "url": "/ux-design/iPhone%2016%20Pro%20Max%20-%2018-1.png",
+    "title": "Mobile App Experience - Profile & Account Settings",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile App Experience - Profile & Account Settings"
+  },
+  {
+    "id": "ux-design-18",
+    "url": "/ux-design/iPhone%2016%20Pro%20Max%20-%2019.png",
+    "title": "Mobile App Experience - Premium Membership & Subscription",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile App Experience - Premium Membership & Subscription"
+  },
+  {
+    "id": "ux-design-19",
+    "url": "/ux-design/Screen%2025-1.png",
+    "title": "Mobile UI Design - Splash Screen & Onboarding",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile UI Design - Splash Screen & Onboarding"
+  },
+  {
+    "id": "ux-design-20",
+    "url": "/ux-design/Screen%20111-1.png",
+    "title": "Mobile App Suite - Main Dashboard & Quick Actions",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile App Suite - Main Dashboard & Quick Actions"
+  },
+  {
+    "id": "ux-design-21",
+    "url": "/ux-design/Screen%20112-1.png",
+    "title": "Mobile App Suite - Content Feed & Search Filters",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile App Suite - Content Feed & Search Filters"
+  },
+  {
+    "id": "ux-design-22",
+    "url": "/ux-design/Screen%20113-1.png",
+    "title": "Mobile App Suite - Item Details & Navigation",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile App Suite - Item Details & Navigation"
+  },
+  {
+    "id": "ux-design-23",
+    "url": "/ux-design/Screen%20114-1.png",
+    "title": "Mobile App Suite - User Activity & Notifications",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile App Suite - User Activity & Notifications"
+  },
+  {
+    "id": "ux-design-24",
+    "url": "/ux-design/Screen%20116-1.png",
+    "title": "Mobile App Suite - App Settings & Preferences",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Mobile App Suite - App Settings & Preferences"
+  },
+  {
+    "id": "ux-design-25",
+    "url": "/ux-design/Screen%20142.png",
+    "title": "Enterprise Mobile UI - Performance Analytics 01",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Performance Analytics 01"
+  },
+  {
+    "id": "ux-design-26",
+    "url": "/ux-design/Screen%20143.png",
+    "title": "Enterprise Mobile UI - Task Manager & Status 02",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Task Manager & Status 02"
+  },
+  {
+    "id": "ux-design-27",
+    "url": "/ux-design/Screen%20144.png",
+    "title": "Enterprise Mobile UI - Calendar & Schedule Planner 03",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Calendar & Schedule Planner 03"
+  },
+  {
+    "id": "ux-design-28",
+    "url": "/ux-design/Screen%20145.png",
+    "title": "Enterprise Mobile UI - User Management & Roles 04",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - User Management & Roles 04"
+  },
+  {
+    "id": "ux-design-29",
+    "url": "/ux-design/Screen%20146.png",
+    "title": "Enterprise Mobile UI - Metrics & Data Charts 05",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Metrics & Data Charts 05"
+  },
+  {
+    "id": "ux-design-30",
+    "url": "/ux-design/Screen%20147.png",
+    "title": "Enterprise Mobile UI - Media & Resource Library 06",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Media & Resource Library 06"
+  },
+  {
+    "id": "ux-design-31",
+    "url": "/ux-design/Screen%20148.png",
+    "title": "Enterprise Mobile UI - System Settings & Config 07",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - System Settings & Config 07"
+  },
+  {
+    "id": "ux-design-32",
+    "url": "/ux-design/Screen%20149.png",
+    "title": "Enterprise Mobile UI - Custom Workflow Builder 08",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Custom Workflow Builder 08"
+  },
+  {
+    "id": "ux-design-33",
+    "url": "/ux-design/Screen%20150.png",
+    "title": "Enterprise Mobile UI - Alert & Notification Center 09",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Alert & Notification Center 09"
+  },
+  {
+    "id": "ux-design-34",
+    "url": "/ux-design/Screen%20151.png",
+    "title": "Enterprise Mobile UI - Interactive Report Screen 10",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Interactive Report Screen 10"
+  },
+  {
+    "id": "ux-design-35",
+    "url": "/ux-design/Screen%20152.png",
+    "title": "Enterprise Mobile UI - Account Overview & Security 11",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Enterprise Mobile UI - Account Overview & Security 11"
+  },
+  {
+    "id": "ux-design-36",
+    "url": "/ux-design/Telegram%20Authorization.png",
+    "title": "Telegram App Redesign - Phone Login & Security Verification",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Telegram App Redesign - Phone Login & Security Verification"
+  },
+  {
+    "id": "ux-design-37",
+    "url": "/ux-design/Telegram%20Calls.png",
+    "title": "Telegram App Redesign - Voice & Video Call Log UX",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Telegram App Redesign - Voice & Video Call Log UX"
+  },
+  {
+    "id": "ux-design-38",
+    "url": "/ux-design/Telegram%20Chat%20Modal.png",
+    "title": "Telegram App Redesign - Instant Message Actions & Modal UI",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Telegram App Redesign - Instant Message Actions & Modal UI"
+  },
+  {
+    "id": "ux-design-39",
+    "url": "/ux-design/Telegram%20Chat.png",
+    "title": "Telegram App Redesign - Active Chat Screen & Media Sharing",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Telegram App Redesign - Active Chat Screen & Media Sharing"
+  },
+  {
+    "id": "ux-design-40",
+    "url": "/ux-design/Telegram%20Contacts.png",
+    "title": "Telegram App Redesign - Contacts & Status View",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Telegram App Redesign - Contacts & Status View"
+  },
+  {
+    "id": "ux-design-41",
+    "url": "/ux-design/Telegram%20Data%20and%20Storage.png",
+    "title": "Telegram App Redesign - Storage Usage & Network Settings",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Telegram App Redesign - Storage Usage & Network Settings"
+  },
+  {
+    "id": "ux-design-42",
+    "url": "/ux-design/Telegram%20Edit%20Profile.png",
+    "title": "Telegram App Redesign - Profile Customization & User Info",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Telegram App Redesign - Profile Customization & User Info"
+  },
+  {
+    "id": "ux-design-43",
+    "url": "/ux-design/Tesco%201.jpg",
+    "title": "Tesco E-Commerce - Homepage & Promotional Offers",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco E-Commerce - Homepage & Promotional Offers"
+  },
+  {
+    "id": "ux-design-44",
+    "url": "/ux-design/Tesco%202.jpg",
+    "title": "Tesco Grocery - Category Browsing & Clubcard Deals",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Grocery - Category Browsing & Clubcard Deals"
+  },
+  {
+    "id": "ux-design-45",
+    "url": "/ux-design/Tesco%203.jpg",
+    "title": "Tesco Shopping - Product Listing & Quick Cart",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Shopping - Product Listing & Quick Cart"
+  },
+  {
+    "id": "ux-design-46",
+    "url": "/ux-design/Tesco%204.jpg",
+    "title": "Tesco Grocery - Product Details & Nutritional Info",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Grocery - Product Details & Nutritional Info"
+  },
+  {
+    "id": "ux-design-47",
+    "url": "/ux-design/Tesco%205.jpg",
+    "title": "Tesco Mobile - Delivery Slot Selection & Booking",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Mobile - Delivery Slot Selection & Booking"
+  },
+  {
+    "id": "ux-design-48",
+    "url": "/ux-design/Tesco%206.jpg",
+    "title": "Tesco Shopping Basket & Order Summary Interface",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Shopping Basket & Order Summary Interface"
+  },
+  {
+    "id": "ux-design-49",
+    "url": "/ux-design/Tesco%207.jpg",
+    "title": "Tesco Checkout - Payment & Address Confirmation",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Checkout - Payment & Address Confirmation"
+  },
+  {
+    "id": "ux-design-50",
+    "url": "/ux-design/Tesco%208.jpg",
+    "title": "Tesco Clubcard & Rewards Points Portal",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Clubcard & Rewards Points Portal"
+  },
+  {
+    "id": "ux-design-51",
+    "url": "/ux-design/Tesco%209.jpg",
+    "title": "Tesco Order Tracking & Delivery Status UX",
+    "category": "ux-design",
+    "categoryLabel": "UX/UI Designs",
+    "client": "Tesco PLC / Mobile App Studio",
+    "caption": "Tesco Order Tracking & Delivery Status UX"
   },
   {
     "id": "marketing-collateral-1",
