@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight, Award, Bot, CheckCircle2 } from 'lucide-react';
+import { Sparkles, ArrowRight, Award, CheckCircle2 } from 'lucide-react';
 
 interface HeroSectionProps {
   onNavigate: (sectionId: string) => void;
@@ -9,29 +9,17 @@ interface HeroSectionProps {
 export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onOpenPdf }) => {
   return (
     <section id="home" className="pt-2 pb-4 space-y-8">
-      {/* Top Bar - AI Twin CTA */}
-      <div className="flex items-center justify-end">
-        <button
-          onClick={() => onNavigate('ai-twin')}
-          className="py-2 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-black font-bold text-xs sm:text-sm tracking-wide hover:brightness-110 active:scale-95 transition-all shadow-[0_0_20px_rgba(40,233,140,0.3)] flex items-center gap-2 cursor-pointer"
-        >
-          <Bot className="w-4 h-4" />
-          <span>Talk with Tal.AI</span>
-          <ArrowRight className="w-4 h-4" />
-        </button>
-      </div>
-
       {/* Main Title & Subtitle */}
       <div className="space-y-6">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white leading-[1.2]">
-          Driving 15 years of graphic design and UX strategy,{" "}
+          Senior Graphic Designer crafting{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 font-semibold">
-            actively leveraging AI tools to accelerate workflows and scale creative output.
+            High-Impact Digital Design, Social Media & Marketing Collaterals, Brand Identity & Print.
           </span>
         </h1>
 
         <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-3xl">
-          With over <span className="text-emerald-400 font-semibold">15 years</span> of deep expertise bridging graphic design craft and user-centric UX strategy, I leverage AI-driven workflows to streamline creative assets, scale digital output, and enhance design precision. As an Associate Design Manager at <strong className="text-white">EY</strong>, I combine strategic vision with advanced generative AI tools to accelerate design velocity, elevate visual quality, and deliver high-impact digital experiences — open to international opportunities (Germany / EU Blue Card eligible).
+          With over <span className="text-emerald-400 font-semibold">15 years</span> of hands-on design excellence across global enterprises (including <strong className="text-white">Ernst & Young</strong>, <strong className="text-white">WNS</strong>, <strong className="text-white">Havells</strong>, and <strong className="text-white">Orient</strong>), I craft end-to-end visual deliverables: from high-converting <strong className="text-white">Digital Design, Social Media Creatives & Marketing Collaterals</strong> to comprehensive <strong className="text-white">Corporate Identity (CI/CD)</strong> and flawless <strong className="text-white">Print Production & Prepress</strong> — accelerated by modern AI tools (Adobe Firefly) for 3x–5x faster velocity. <span className="text-emerald-300 font-semibold">Eligible for the EU Blue Card with immediate relocation availability.</span>
         </p>
       </div>
 
@@ -42,9 +30,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onOpenPdf 
             15+
           </div>
           <div className="text-xs font-mono uppercase tracking-wider text-slate-400 mt-1">
-            Years Experience
+            Years Graphic Design Craft
           </div>
-          <p className="text-xs font-semibold text-slate-200 mt-1.5">UX, AI, Design & Motion Graphic</p>
+          <p className="text-xs font-semibold text-slate-200 mt-1.5">Digital Media, Social Ads, Brand & Print</p>
         </div>
 
         <div className="p-5 rounded-2xl bg-[#12151e]/80 border border-emerald-500/20 backdrop-blur-md hover:border-emerald-500/40 transition-colors group">
@@ -55,17 +43,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onOpenPdf 
           <div className="text-xs font-mono uppercase tracking-wider text-slate-400 mt-1">
             Achiever Extraordinaire
           </div>
-          <p className="text-xs font-semibold text-slate-200 mt-1.5">Consecutive EY Awards</p>
+          <p className="text-xs font-semibold text-slate-200 mt-1.5">Consecutive EY Global Awards</p>
         </div>
 
         <div className="p-5 rounded-2xl bg-[#12151e]/80 border border-emerald-500/20 backdrop-blur-md hover:border-emerald-500/40 transition-colors group">
           <div className="text-3xl sm:text-4xl font-extrabold text-cyan-400 font-mono group-hover:scale-105 transition-transform">
-            4
+            100%
           </div>
           <div className="text-xs font-mono uppercase tracking-wider text-slate-400 mt-1">
-            EY Bronze Badges
+            Prepress & Print Precision
           </div>
-          <p className="text-xs font-semibold text-slate-200 mt-1.5">AI, Cyber, Innovation& Digital</p>
+          <p className="text-xs font-semibold text-slate-200 mt-1.5">Zero-Defect Packaging & Print Production</p>
         </div>
       </div>
 
@@ -76,9 +64,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onOpenPdf 
             <CheckCircle2 className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-sm font-semibold text-white">Global Relocation & Work Authorization</div>
+            <div className="text-sm font-semibold text-white">European Relocation & EU Blue Card Ready</div>
             <div className="text-xs text-slate-400">
-              Eligible for EU Blue Card (Germany / European Union). Holds recognized university degrees & 15+ years senior IT record.
+              Eligible for fast-track EU Blue Card skilled employment with recognized university degree & 15+ years international design record. Fluent English (C2) & basic German (A1/A2).
             </div>
           </div>
         </div>
@@ -87,7 +75,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onOpenPdf 
           onClick={() => onNavigate('contact')}
           className="px-4 py-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-semibold tracking-wide transition-colors whitespace-nowrap cursor-pointer"
         >
-          Discuss Relocation Opportunity →
+          Discuss Career Opportunities →
         </button>
       </div>
     </section>

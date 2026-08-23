@@ -95,7 +95,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/11-%20Menu.png",
     "title": "Mobile Banking & Fintech - Navigation Menu UX",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile Banking & Fintech - Navigation Menu UX"
   },
@@ -104,7 +104,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/12-%20Send%20money%20(Amount).png",
     "title": "Mobile Banking - Send Money Amount Selection",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile Banking - Send Money Amount Selection"
   },
@@ -113,7 +113,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/13-%20Send%20money.png",
     "title": "Fintech App - Money Transfer & Recipient Selection",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Fintech App - Money Transfer & Recipient Selection"
   },
@@ -122,7 +122,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/14-%20Verification.png",
     "title": "Security & 2FA Identity Verification Screen",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Security & 2FA Identity Verification Screen"
   },
@@ -131,7 +131,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/15-%20Code.png",
     "title": "Mobile Banking - OTP Code Verification Interface",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile Banking - OTP Code Verification Interface"
   },
@@ -140,7 +140,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/16-%20Receit.png",
     "title": "Digital Wallet - Transaction Receipt & Confirmation",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Digital Wallet - Transaction Receipt & Confirmation"
   },
@@ -149,7 +149,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/17-%20Cards.png",
     "title": "Card Management & Wallet - Debit/Credit Cards",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Card Management & Wallet - Debit/Credit Cards"
   },
@@ -158,7 +158,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/18-%20Add%20new%20card.png",
     "title": "Payment Gateway - Add New Card & Onboarding",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Payment Gateway - Add New Card & Onboarding"
   },
@@ -167,7 +167,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/19-%20Transactions.png",
     "title": "Financial Dashboard - Transaction History Analytics",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Financial Dashboard - Transaction History Analytics"
   },
@@ -176,7 +176,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/20-%20Top%20up.png",
     "title": "Digital Wallet - Balance Top-Up & Quick Refill",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Digital Wallet - Balance Top-Up & Quick Refill"
   },
@@ -185,7 +185,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/23-%20Bill%20payment.png",
     "title": "Utilities & Recurring Bill Payment Hub",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Utilities & Recurring Bill Payment Hub"
   },
@@ -194,7 +194,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/24-%20Loans.png",
     "title": "Personal Loans & Credit Rating Interface",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Personal Loans & Credit Rating Interface"
   },
@@ -203,7 +203,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/25-%20Budget.png",
     "title": "Financial Planning & Personal Budget Tracker",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Financial Planning & Personal Budget Tracker"
   },
@@ -212,7 +212,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Frame%2053.png",
     "title": "Interactive App Architecture - Mobile Flow Showcase",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Interactive App Architecture - Mobile Flow Showcase"
   },
@@ -221,7 +221,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Frame%2054.png",
     "title": "Interactive App Architecture - Feature Highlights Dashboard",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Interactive App Architecture - Feature Highlights Dashboard"
   },
@@ -230,7 +230,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/iPhone%2016%20Pro%20Max%20-%208-1.png",
     "title": "Mobile App Experience - Onboarding & Welcome Flow",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Experience - Onboarding & Welcome Flow"
   },
@@ -239,7 +239,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/iPhone%2016%20Pro%20Max%20-%2018-1.png",
     "title": "Mobile App Experience - Profile & Account Settings",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Experience - Profile & Account Settings"
   },
@@ -248,7 +248,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/iPhone%2016%20Pro%20Max%20-%2019.png",
     "title": "Mobile App Experience - Premium Membership & Subscription",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Experience - Premium Membership & Subscription"
   },
@@ -257,7 +257,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%2025-1.png",
     "title": "Mobile UI Design - Splash Screen & Onboarding",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile UI Design - Splash Screen & Onboarding"
   },
@@ -266,7 +266,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20111-1.png",
     "title": "Mobile App Suite - Main Dashboard & Quick Actions",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Suite - Main Dashboard & Quick Actions"
   },
@@ -275,7 +275,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20112-1.png",
     "title": "Mobile App Suite - Content Feed & Search Filters",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Suite - Content Feed & Search Filters"
   },
@@ -284,7 +284,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20113-1.png",
     "title": "Mobile App Suite - Item Details & Navigation",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Suite - Item Details & Navigation"
   },
@@ -293,7 +293,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20114-1.png",
     "title": "Mobile App Suite - User Activity & Notifications",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Suite - User Activity & Notifications"
   },
@@ -302,7 +302,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20116-1.png",
     "title": "Mobile App Suite - App Settings & Preferences",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Mobile App Suite - App Settings & Preferences"
   },
@@ -311,7 +311,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20142.png",
     "title": "Enterprise Mobile UI - Performance Analytics 01",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Performance Analytics 01"
   },
@@ -320,7 +320,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20143.png",
     "title": "Enterprise Mobile UI - Task Manager & Status 02",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Task Manager & Status 02"
   },
@@ -329,7 +329,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20144.png",
     "title": "Enterprise Mobile UI - Calendar & Schedule Planner 03",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Calendar & Schedule Planner 03"
   },
@@ -338,7 +338,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20145.png",
     "title": "Enterprise Mobile UI - User Management & Roles 04",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - User Management & Roles 04"
   },
@@ -347,7 +347,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20146.png",
     "title": "Enterprise Mobile UI - Metrics & Data Charts 05",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Metrics & Data Charts 05"
   },
@@ -356,7 +356,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20147.png",
     "title": "Enterprise Mobile UI - Media & Resource Library 06",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Media & Resource Library 06"
   },
@@ -365,7 +365,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20148.png",
     "title": "Enterprise Mobile UI - System Settings & Config 07",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - System Settings & Config 07"
   },
@@ -374,7 +374,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20149.png",
     "title": "Enterprise Mobile UI - Custom Workflow Builder 08",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Custom Workflow Builder 08"
   },
@@ -383,7 +383,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20150.png",
     "title": "Enterprise Mobile UI - Alert & Notification Center 09",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Alert & Notification Center 09"
   },
@@ -392,7 +392,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20151.png",
     "title": "Enterprise Mobile UI - Interactive Report Screen 10",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Interactive Report Screen 10"
   },
@@ -401,7 +401,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Screen%20152.png",
     "title": "Enterprise Mobile UI - Account Overview & Security 11",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Enterprise Mobile UI - Account Overview & Security 11"
   },
@@ -410,7 +410,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Telegram%20Authorization.png",
     "title": "Telegram App Redesign - Phone Login & Security Verification",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Telegram App Redesign - Phone Login & Security Verification"
   },
@@ -419,7 +419,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Telegram%20Calls.png",
     "title": "Telegram App Redesign - Voice & Video Call Log UX",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Telegram App Redesign - Voice & Video Call Log UX"
   },
@@ -428,7 +428,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Telegram%20Chat%20Modal.png",
     "title": "Telegram App Redesign - Instant Message Actions & Modal UI",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Telegram App Redesign - Instant Message Actions & Modal UI"
   },
@@ -437,7 +437,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Telegram%20Chat.png",
     "title": "Telegram App Redesign - Active Chat Screen & Media Sharing",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Telegram App Redesign - Active Chat Screen & Media Sharing"
   },
@@ -446,7 +446,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Telegram%20Contacts.png",
     "title": "Telegram App Redesign - Contacts & Status View",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Telegram App Redesign - Contacts & Status View"
   },
@@ -455,7 +455,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Telegram%20Data%20and%20Storage.png",
     "title": "Telegram App Redesign - Storage Usage & Network Settings",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Telegram App Redesign - Storage Usage & Network Settings"
   },
@@ -464,7 +464,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Telegram%20Edit%20Profile.png",
     "title": "Telegram App Redesign - Profile Customization & User Info",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Telegram App Redesign - Profile Customization & User Info"
   },
@@ -473,7 +473,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%201.jpg",
     "title": "Tesco E-Commerce - Homepage & Promotional Offers",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco E-Commerce - Homepage & Promotional Offers"
   },
@@ -482,7 +482,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%202.jpg",
     "title": "Tesco Grocery - Category Browsing & Clubcard Deals",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Grocery - Category Browsing & Clubcard Deals"
   },
@@ -491,7 +491,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%203.jpg",
     "title": "Tesco Shopping - Product Listing & Quick Cart",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Shopping - Product Listing & Quick Cart"
   },
@@ -500,7 +500,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%204.jpg",
     "title": "Tesco Grocery - Product Details & Nutritional Info",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Grocery - Product Details & Nutritional Info"
   },
@@ -509,7 +509,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%205.jpg",
     "title": "Tesco Mobile - Delivery Slot Selection & Booking",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Mobile - Delivery Slot Selection & Booking"
   },
@@ -518,7 +518,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%206.jpg",
     "title": "Tesco Shopping Basket & Order Summary Interface",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Shopping Basket & Order Summary Interface"
   },
@@ -527,7 +527,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%207.jpg",
     "title": "Tesco Checkout - Payment & Address Confirmation",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Checkout - Payment & Address Confirmation"
   },
@@ -536,7 +536,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%208.jpg",
     "title": "Tesco Clubcard & Rewards Points Portal",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Clubcard & Rewards Points Portal"
   },
@@ -545,7 +545,7 @@ export const UX_GALLERY_IMAGES: GalleryItem[] = [
     "url": "/ux-design/Tesco%209.jpg",
     "title": "Tesco Order Tracking & Delivery Status UX",
     "category": "ux-design",
-    "categoryLabel": "UX/UI Designs",
+    "categoryLabel": "Graphic Design",
     "client": "Tesco PLC / Mobile App Studio",
     "caption": "Tesco Order Tracking & Delivery Status UX"
   },

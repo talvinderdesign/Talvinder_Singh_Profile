@@ -13,7 +13,7 @@ export const AboutSection: React.FC = () => {
       </div>
 
       <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-        A Strategic Leader Who Bridges High-Level Strategy with Hands-on Execution.
+        Designing High-Impact Visuals: From Digital & Social Creatives to Corporate Identity and Print.
       </h2>
 
       {/* Summary Narrative Card */}
@@ -22,7 +22,7 @@ export const AboutSection: React.FC = () => {
           {PERSONAL_INFO.bio}
         </p>
         <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-          My background goes far beyond traditional UX; it bridges strategic design management, enterprise UX architecture, and AI-powered product efficiency across global tech, FMCG, and consulting sectors. Whether establishing design systems, streamlining cross-functional workflows, or leveraging cutting-edge AI tools to elevate delivery velocity, I operate as a strategic partner dedicated to scalability, precision, and business ROI.
+          My career combines digital design craftsmanship with rigorous print production standards. Across global consulting (<strong className="text-white">EY</strong>), multinational retail (<strong className="text-white">WNS / Tesco</strong>), and consumer electricals (<strong className="text-white">Havells, Orient</strong>), I have crafted multi-format digital graphics, social media ad suites, C-suite pitch decks, brand design systems, error-free packaging die-lines, and large-format outdoor & trade fair graphics.
         </p>
       </div>
 
@@ -30,49 +30,49 @@ export const AboutSection: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
           <div className="flex items-center gap-3">
+            <div className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400">
+              <Users className="w-5 h-5" />
+            </div>
+            <h3 className="text-lg font-semibold text-white">Digital Design, Social Media & Marketing</h3>
+          </div>
+          <p className="text-xs text-slate-400 leading-relaxed">
+            Crafting high-impact social media creatives (Meta, LinkedIn, YouTube), digital promotional banners, executive C-suite pitch decks (PowerPoint), responsive landing page assets, and promotional marketing collaterals.
+          </p>
+        </div>
+
+        <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
+          <div className="flex items-center gap-3">
             <div className="p-2.5 rounded-xl bg-purple-500/10 text-purple-400">
               <Palette className="w-5 h-5" />
             </div>
-            <h3 className="text-lg font-semibold text-white">Marketing Design & Multimedia Champion</h3>
+            <h3 className="text-lg font-semibold text-white">Corporate Identity (CI/CD) & Brand Systems</h3>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
-            Delivering high-impact graphic design, intuitive UX/UI product experiences, corporate video creation and motion editing, and multi-channel marketing collateral for global brands.
+            Developing and governing Corporate Identity (CI/CD) guidelines, typographic grid systems, annual reports, executive pitch books, and scalable vector brand asset libraries across global enterprises.
           </p>
         </div>
 
         <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
           <div className="flex items-center gap-3">
             <div className="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400">
-              <Cpu className="w-5 h-5" />
-            </div>
-            <h3 className="text-lg font-semibold text-white">AI Agent Development & Copilot</h3>
-          </div>
-          <p className="text-xs text-slate-400 leading-relaxed">
-            Engineering custom AI workflow agents inside Copilot and Replit environments. Automating complex consulting reporting, document synthesis, and rapid prototyping for EY leadership.
-          </p>
-        </div>
-
-        <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
-          <div className="flex items-center gap-3">
-            <div className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400">
               <Layout className="w-5 h-5" />
             </div>
-            <h3 className="text-lg font-semibold text-white">SharePoint & Web Architecture</h3>
+            <h3 className="text-lg font-semibold text-white">Print Production & Prepress Mastery</h3>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
-            Designing highly scalable SharePoint Online (O365) platforms for enterprise service lines, ensuring information architecture, brand adherence, and robust security compliance.
+            End-to-end prepress execution: PDF/X-4 & PDF/X-1a compliance, CMYK & Pantone spot color separation, bleed/trapping, packaging die-lines, retail POS/POP displays, and large-format trade fair exhibition graphics.
           </p>
         </div>
 
         <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 hover:border-emerald-500/30 transition-all space-y-3">
           <div className="flex items-center gap-3">
             <div className="p-2.5 rounded-xl bg-amber-500/10 text-amber-400">
-              <Users className="w-5 h-5" />
+              <Cpu className="w-5 h-5" />
             </div>
-            <h3 className="text-lg font-semibold text-white">Team Leadership & Mentorship</h3>
+            <h3 className="text-lg font-semibold text-white">AI Creative Acceleration & Motion Graphics</h3>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
-            Proven track record directing teams of up to 8 design professionals (WNS), managing delivery schedules for Tier-1 USA & UK accounts, and mentoring EY designers.
+            Pioneering Adobe Firefly, Photoshop Generative AI, and custom prompt workflows for 3x–5x faster production velocity, coupled with 2D kinetic typography and video editing (After Effects, Premiere Pro).
           </p>
         </div>
       </div>
@@ -84,24 +84,24 @@ export const AboutSection: React.FC = () => {
           <span className="text-white font-semibold">{PERSONAL_INFO.name}</span>
         </div>
         <div>
-          <span className="text-slate-300 font-semibold uppercase block mb-1">Current Role</span>
-          <span className="text-emerald-400 font-semibold">Associate Design Manager @ EY</span>
+          <span className="text-slate-300 font-semibold uppercase block mb-1">Target Profile</span>
+          <span className="text-emerald-400 font-semibold">Senior Graphic Designer</span>
         </div>
         <div>
-          <span className="text-slate-300 font-semibold uppercase block mb-1">Location</span>
-          <span className="text-white">New Delhi, India (Relocation Ready)</span>
+          <span className="text-slate-300 font-semibold uppercase block mb-1">Current Employer</span>
+          <span className="text-white">Ernst & Young (EY)</span>
         </div>
         <div>
-          <span className="text-slate-300 font-semibold uppercase block mb-1">Languages</span>
-          <span className="text-white">English (Fluent / Business Level)</span>
+          <span className="text-slate-300 font-semibold uppercase block mb-1">Location & Mobility</span>
+          <span className="text-white">Relocation Ready</span>
+        </div>
+        <div>
+          <span className="text-slate-300 font-semibold uppercase block mb-1">Language Skills</span>
+          <span className="text-white">English (C2 Fluent) • German (A1/A2)</span>
         </div>
         <div>
           <span className="text-slate-300 font-semibold uppercase block mb-1">Work Authorization</span>
-          <span className="text-emerald-300">EU Blue Card Eligible (Germany)</span>
-        </div>
-        <div>
-          <span className="text-slate-300 font-semibold uppercase block mb-1">Experience</span>
-          <span className="text-white">15+ Years Multidisciplinary</span>
+          <span className="text-emerald-300">EU Blue Card Eligible</span>
         </div>
       </div>
     </section>

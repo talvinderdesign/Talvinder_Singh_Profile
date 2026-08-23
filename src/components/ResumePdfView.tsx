@@ -64,6 +64,15 @@ export const ResumePdfView: React.FC<ResumePdfViewProps> = ({ onClose }) => {
               <span>📞 {PERSONAL_INFO.phone}</span>
               <span>✉️ {PERSONAL_INFO.email}</span>
             </div>
+
+            <div className="flex flex-wrap gap-3 text-[11px] font-mono pt-2">
+              <span className="px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">
+                EU Blue Card Eligible
+              </span>
+              <span className="px-2.5 py-0.5 rounded bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">
+                Languages: English (C2 Fluent) • German (A1/A2 Basic)
+              </span>
+            </div>
           </div>
 
           {/* Awards & Badges Row */}
@@ -91,6 +100,31 @@ export const ResumePdfView: React.FC<ResumePdfViewProps> = ({ onClose }) => {
             <p className="text-slate-300 leading-relaxed">
               {PERSONAL_INFO.bio}
             </p>
+          </div>
+
+          {/* Core Competencies Matrix */}
+          <div className="space-y-2">
+            <h2 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">
+              CORE EXPERTISE & COMPETENCIES
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+              <div className="p-2.5 rounded-xl bg-[#181c28] border border-white/5 space-y-1">
+                <div className="font-bold text-white">Digital Design & Social Marketing:</div>
+                <div className="text-slate-300 text-[11px]">Meta/LinkedIn Ads, GDN Banners, Executive Pitch Decks (PowerPoint), Landing Visuals, Figma UI Systems.</div>
+              </div>
+              <div className="p-2.5 rounded-xl bg-[#181c28] border border-white/5 space-y-1">
+                <div className="font-bold text-white">Brand Systems & Corporate Identity:</div>
+                <div className="text-slate-300 text-[11px]">CI/CD Guidelines, Design Governance, InDesign Editorial Layout, Annual Reports, Typography Grids.</div>
+              </div>
+              <div className="p-2.5 rounded-xl bg-[#181c28] border border-white/5 space-y-1">
+                <div className="font-bold text-white">Print Production & Prepress Mastery:</div>
+                <div className="text-slate-300 text-[11px]">PDF/X-4 Compliance, CMYK & Pantone Spot Colors, Packaging Die-Lines, Large-Format OOH & Exhibition Displays.</div>
+              </div>
+              <div className="p-2.5 rounded-xl bg-[#181c28] border border-white/5 space-y-1">
+                <div className="font-bold text-white">Motion Graphics & AI Acceleration:</div>
+                <div className="text-slate-300 text-[11px]">After Effects 2D Motion, Kinetic Typography, Premiere Pro, Adobe Firefly Generative AI (3x-5x Speed).</div>
+              </div>
+            </div>
           </div>
 
           {/* Experience */}

@@ -7,7 +7,6 @@ import { ResumeSection } from './components/ResumeSection';
 import { SkillsSection } from './components/SkillsSection';
 import { BadgesSection } from './components/BadgesSection';
 import { PortfolioSection } from './components/PortfolioSection';
-import { AiTwinSection } from './components/AiTwinSection';
 import { ContactSection } from './components/ContactSection';
 import { ProjectModal } from './components/ProjectModal';
 import { ResumePdfView } from './components/ResumePdfView';
@@ -35,7 +34,7 @@ export default function App() {
   // Observe active section on scroll
   useEffect(() => {
     const handleScroll = () => {
-      const sectionIds = ['home', 'about', 'resume', 'skills', 'badges', 'portfolio', 'ai-twin', 'contact'];
+      const sectionIds = ['home', 'about', 'resume', 'skills', 'badges', 'portfolio', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const id of sectionIds) {
@@ -97,8 +96,6 @@ export default function App() {
             <PortfolioSection 
               onSelectProject={(proj) => setSelectedProject(proj)}
             />
-
-            <AiTwinSection />
 
             <ContactSection />
           </main>

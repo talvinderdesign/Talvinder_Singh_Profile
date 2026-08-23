@@ -3,7 +3,7 @@ import { Cpu, Layout, Video, Sparkles, Check, Figma } from 'lucide-react';
 import { SKILL_CATEGORIES } from '../data/resumeData';
 
 export const SkillsSection: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>('cat-ux');
+  const [activeTab, setActiveTab] = useState<string>(SKILL_CATEGORIES[0]?.id || 'cat-digital-marketing');
 
   return (
     <section id="skills" className="pt-6 pb-4 space-y-6 border-t border-white/10">
@@ -82,15 +82,17 @@ export const SkillsSection: React.FC = () => {
       {/* Tech Stack Pills List */}
       <div className="p-6 rounded-2xl bg-[#181c28] border border-white/5 space-y-3">
         <div className="text-xs font-mono text-slate-400 uppercase tracking-wider">
-          Complete Software & Framework Arsenal
+          Complete Software & Production Arsenal
         </div>
         <div className="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
           {[
-            "Figma", "Microsoft Copilot Studio", "Replit AI", "Adobe Express", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", 
-            "Print Media Knowledge", "Social Media Marketing", "Brand Campaign", "PPC", "CPA", "ROAS", "A/B Testing", 
-            "Microsoft PowerPoint", "Microsoft Excel", "Microsoft Word", "Marketing Strategy", "SharePoint Online", 
-            "Adobe Creative Cloud", "Miro", "Mural", "HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", 
-            "Premiere Pro", "After Effects", "Adobe Audition", "User Research", "Wireframing", "Design Systems"
+            "Adobe InDesign", "Adobe Illustrator", "Adobe Photoshop", "Adobe Creative Cloud", "Figma",
+            "Print Production & Prepress", "Final Artwork Execution", "PDF/X-4 & PDF/X-1a", "CMYK & Pantone (PMS)", "Bleed & Trapping",
+            "Corporate Identity (CI/CD)", "Brand Guidelines", "Typography & Typesetting", "Packaging & Die-Lines",
+            "Large-Format Print", "Trade Fair & Exhibition Displays", "Roll-up Banners", "OOH Billboards", "Retail POS/POP",
+            "Social Media Marketing Creatives", "Performance Ad Suites", "Display Banners", "Executive Pitch Decks (PowerPoint)",
+            "Adobe After Effects", "Motion Graphics", "Kinetic Typography", "Adobe Premiere Pro", "Adobe Audition",
+            "Adobe Firefly", "Photoshop Generative AI", "AI Creative Workflows", "SharePoint Online", "Design Systems"
           ].map((item, i) => (
             <span key={i} className="px-3 py-1.5 rounded-lg bg-[#12151e] border border-emerald-500/20 text-emerald-300/90 hover:border-emerald-500/50 hover:text-emerald-300 transition-colors">
               {item}

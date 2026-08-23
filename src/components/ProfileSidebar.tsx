@@ -28,7 +28,7 @@ export const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ onOpenContact, o
               <div className="w-full h-full rounded-[14px] bg-[#0d0f17] flex items-center justify-center overflow-hidden relative">
                 <img
                   src="/profile%20image.png"
-                  alt="Talvinder Singh - Associate Design Manager"
+                  alt="Talvinder Singh - Senior Graphic Designer"
                   className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
                   onError={(e) => {
@@ -43,10 +43,10 @@ export const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ onOpenContact, o
               {PERSONAL_INFO.name}
             </h1>
             <p className="text-[10px] font-semibold text-emerald-400 uppercase tracking-wider mb-1.5">
-              Associate Design Manager @ EY
+              Senior Graphic Designer
             </p>
             <p className="text-[10.5px] text-slate-400 leading-snug">
-              Graphic Design, UX/UI Product Design, Multimedia Design & AI Integration
+              Digital Design, Social Media & Marketing Collaterals, Brand Identity & Print
             </p>
           </div>
         </div>
@@ -54,11 +54,11 @@ export const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ onOpenContact, o
         {/* Key Quick Badges */}
         <div className="mb-3">
           <div className="p-2 rounded-xl bg-[#181c28] border border-white/5 flex flex-col gap-0.5">
-            <div className="flex items-center gap-1 text-amber-400 text-[10.5px] font-semibold">
+            <div className="flex items-center gap-1 text-emerald-400 text-[10.5px] font-semibold">
               <Award className="w-3 h-3" />
-              <span>4x EY Award Winner</span>
+              <span>EU Blue Card Eligible</span>
             </div>
-            <span className="text-[9.5px] text-slate-400">Achiever Extraordinaire</span>
+            <span className="text-[9.5px] text-slate-400">Available for Relocation</span>
           </div>
         </div>
 

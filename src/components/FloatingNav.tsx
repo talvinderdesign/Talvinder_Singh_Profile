@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, User, Briefcase, Settings, Award, FolderKanban, Bot, Mail } from 'lucide-react';
+import { Home, User, Briefcase, Settings, Award, FolderKanban, Mail } from 'lucide-react';
 
 interface FloatingNavProps {
   activeSection: string;
@@ -13,8 +13,7 @@ export const navItems = [
   { id: 'skills', label: 'Skills', icon: Settings, code: '04' },
   { id: 'badges', label: 'EY Badges', icon: Award, code: '05' },
   { id: 'portfolio', label: 'Portfolio', icon: FolderKanban, code: '06' },
-  { id: 'ai-twin', label: 'Tal.AI', icon: Bot, code: '07' },
-  { id: 'contact', label: 'Contact', icon: Mail, code: '08' },
+  { id: 'contact', label: 'Contact', icon: Mail, code: '07' },
 ];
 
 export const FloatingNav: React.FC<FloatingNavProps> = ({ activeSection, onSelectSection }) => {

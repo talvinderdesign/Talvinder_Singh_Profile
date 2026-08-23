@@ -17,25 +17,26 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = () => {
   const [galleryTitle, setGalleryTitle] = useState<string>('Portfolio Showcase');
 
   const CATEGORY_TILES = [
-    { id: 'ux-design', title: 'UX/UI Designs' },
     { id: 'marketing-collateral', title: 'Marketing Collateral' },
-    { id: 'graphic-design', title: 'Graphic Design' },
+    { id: 'ux-design', title: 'Graphic Design' },
     { id: 'motion-graphics', title: 'Motion Graphics' },
-    { id: 'document-design', title: 'Document Design' },
-    { id: '3d-game-design', title: '3D Game design' }
+    { id: 'document-design', title: 'Document Design' }
   ];
 
   const visibleTiles = activeCategory === 'all'
     ? CATEGORY_TILES
     : CATEGORY_TILES.filter(t => t.id === activeCategory);
 
+  const activeCategoryIds = CATEGORY_TILES.map(t => t.id);
+  const visibleGalleryImages = UX_GALLERY_IMAGES.filter(img => activeCategoryIds.includes(img.category));
+
   const handleOpenCategoryGallery = (catId?: string) => {
     if (!catId || catId === 'all') {
-      setModalImages(UX_GALLERY_IMAGES);
+      setModalImages(visibleGalleryImages);
       setGalleryTitle('Portfolio Showcase');
     } else {
-      const categoryFiltered = UX_GALLERY_IMAGES.filter(img => img.category === catId);
-      setModalImages(categoryFiltered.length > 0 ? categoryFiltered : UX_GALLERY_IMAGES);
+      const categoryFiltered = visibleGalleryImages.filter(img => img.category === catId);
+      setModalImages(categoryFiltered.length > 0 ? categoryFiltered : visibleGalleryImages);
       const tile = CATEGORY_TILES.find(t => t.id === catId);
       setGalleryTitle(tile ? tile.title : 'Gallery');
     }
@@ -62,12 +63,10 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = () => {
       <div className="flex flex-wrap gap-2">
         {[
           { id: 'all', label: 'All Initiatives' },
-          { id: 'ux-design', label: 'UX Design' },
           { id: 'marketing-collateral', label: 'Marketing Collateral' },
-          { id: 'graphic-design', label: 'Graphic Design' },
+          { id: 'ux-design', label: 'Graphic Design' },
           { id: 'motion-graphics', label: 'Motion Graphics' },
-          { id: 'document-design', label: 'Document Design' },
-          { id: '3d-game-design', label: '3D Game design' }
+          { id: 'document-design', label: 'Document Design' }
         ].map((tab) => {
           const isActive = activeCategory === tab.id;
           return (

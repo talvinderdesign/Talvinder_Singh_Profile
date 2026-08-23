@@ -2,19 +2,25 @@ import { ExperienceItem, EducationItem, SkillCategory, EyBadge, ProjectItem } fr
 
 export const PERSONAL_INFO = {
   name: "Talvinder Singh",
-  title: "Associate Design Manager | Graphic Design, UX Strategy & AI Workflow Acceleration",
+  title: "Senior Graphic Designer | Digital Design, Social Media & Marketing Collaterals, Brand Identity & Print",
   company: "Ernst & Young Global Limited (EY)",
-  location: "New Delhi, India (Relocation Ready to Germany / EU)",
+  location: "New Delhi, India (Available for Relocation)",
   phone: "+91-981-811-2866",
   email: "talvinder8689@gmail.com",
   linkedIn: "https://www.linkedin.com/in/talvindersingh8189/",
   portfolioUrl: "https://sites.google.com/view/talvindersinghportfolio",
-  status: "Available for EU Relocation (Germany EU Blue Card Eligible)",
+  status: "Available for Relocation (EU Blue Card Eligible)",
   yearsExperience: "15+",
-  projectsCompleted: "40+",
+  projectsCompleted: "100+",
   eyAwardsCount: "5+",
   clientSatisfaction: "100%",
-  bio: "With over 15 years of deep expertise bridging hands-on graphic design and user-centric UX strategy, I leverage a strong command of modern AI tools to accelerate creative workflows, scale digital production, and enhance design precision. As an Associate Design Manager at EY, I combine strategic vision with advanced AI tools to boost design velocity, elevate visual quality, and deliver high-impact digital experiences."
+  languages: [
+    { language: "English", level: "Fluent / C2 Professional Working Proficiency" },
+    { language: "German", level: "Basic / A1-A2 (Actively learning for European integration)" },
+    { language: "Hindi & Punjabi", level: "Native / Bilingual Proficiency" }
+  ],
+  workAuthorization: "EU Blue Card Eligible — Fast-Track Skilled Employment (Recognized Academic Degree & 15+ Years Senior Industry Record)",
+  bio: "Senior Graphic Designer with 15+ years of hands-on design excellence across global enterprises (including Ernst & Young, WNS, Havells, and Orient). I specialize in Digital Design, high-impact Social Media Creatives & Marketing Collaterals, Corporate Identity (CI/CD), end-to-end Print Production & Prepress, and Motion Graphics — leveraging modern AI tools (Adobe Firefly & Generative AI) for 3x–5x faster production velocity while maintaining flawless brand fidelity. Eligible for the EU Blue Card with immediate relocation availability."
 };
 
 export const EY_BADGES: EyBadge[] = [
@@ -69,363 +75,281 @@ export const EY_AWARDS = [
     title: "Achiever Extraordinaire Award",
     period: "2023 - 2026 (Consecutive 4-Year Winner)",
     organization: "Ernst & Young Global Limited",
-    description: "Consistently recognized by EY executive leadership for outstanding technical leadership, AI agent innovation, and elevating user experience standards firm-wide."
+    description: "Honored by EY global leadership for 4 consecutive years for exemplary visual design execution, creative leadership, brand governance, and AI workflow integration."
   },
   {
     title: "Exceptional Client Services Award",
     period: "2022",
     organization: "Ernst & Young Global Limited",
-    description: "Awarded for delivering flawless enterprise platforms with 100% on-time execution, brand adherence, and high stakeholder satisfaction."
+    description: "Awarded for delivering flawless enterprise graphic design deliverables, executive pitch books, brand publications, and digital marketing collateral with 100% on-time execution and strict brand fidelity."
   }
 ];
 
 export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "exp-ey",
-    company: "Ernst & Young Global Limited",
+    company: "Ernst & Young Global Limited (EY)",
     website: "https://www.ey.com/en_in",
-    location: "Gurgaon, India",
-    role: "Associate Design Manager",
+    location: "Gurgaon, India (Global Delivery Services)",
+    role: "Senior Graphic Designer | Associate Design Manager",
     period: "06/2017 – Present",
     award: "Achiever Extraordinaire (2023-2026)",
     highlights: [
-      "Lead high-impact graphic design, visual branding, and user-centric UX/UI strategies across enterprise platforms, directly aligning visual craft with business KPIs.",
-      "Partner with global EY leadership as a strategic advisor, translating complex business requirements into intuitive digital products and high-impact brand solutions.",
-      "Pioneer AI-augmented workflows and custom agent prototyping in Copilot and Replit environments, significantly accelerating creative velocity and product delivery.",
-      "Architect scalable design systems, enterprise SharePoint platforms, and interactive digital assets for global service lines.",
-      "Serve as a core EY Brand Ambassador, leading digital accessibility (WCAG compliance) initiatives and high-end print media production while mentoring design teams.",
-      "Orchestrate cross-functional collaboration across engineering, product management, and business units, validating design choices with performance metrics to drive business ROI."
+      "Design and deliver high-impact graphic design deliverables, brand identity systems, and marketing collateral across global EY service lines, aligning visual craft with brand standards.",
+      "Govern strict Corporate Identity (CI/CD) compliance across thousands of digital touchpoints, executive presentation decks, pitch books, whitepapers, and annual publication layouts.",
+      "Pioneer AI-accelerated creative production workflows using Adobe Firefly, Photoshop Generative AI, and custom prompt workflows, reducing design turnaround by 40-60% while maintaining pixel-perfect fidelity.",
+      "Architect high-stakes executive pitch presentations (PowerPoint / Keynote / InDesign) and interactive digital publications for C-suite and government stakeholder proposals.",
+      "Design scalable digital design systems, vector illustration libraries, and enterprise SharePoint Online portal layouts with strict typographic hierarchy and WCAG accessibility standards.",
+      "Mentor and lead junior graphic designers, establishing quality assurance checklists, asset management protocols, and prepress standards."
     ],
-    skills: ["Graphic Design", "UI/UX Design", "AI Workflow Acceleration", "SharePoint Online", "Adobe Creative Cloud", "Figma", "Brand Strategy"]
+    skills: ["Graphic Design", "Corporate Identity (CI/CD)", "Adobe InDesign", "Adobe Photoshop", "Adobe Illustrator", "Editorial & Pitch Books", "AI Creative Workflows", "Brand Governance"]
   },
   {
     id: "exp-wns",
     company: "WNS Global Services Pvt. Ltd.",
     website: "https://www.wns.com/",
     location: "Gurgaon, India",
-    role: "Deputy Manager Design",
+    role: "Deputy Manager – Graphic Design & Multimedia",
     period: "06/2014 – 06/2017",
     highlights: [
-      "Led and mentored a multidisciplinary team of designers and developers, driving agile project execution for key US, UK, and European enterprise accounts.",
-      "Served as strategic design lead for a major UK retail brand, overseeing end-to-end e-commerce experiences, product packaging, and nationwide digital campaigns.",
-      "Spearheaded omnichannel visual initiatives, including smartscreen video animations, interactive microsites, and in-store point-of-sale displays.",
-      "Architected executive pitch decks, corporate presentations, and product promotional videos that connected creative storytelling with core business goals.",
-      "Managed multi-platform content lifecycles and web operations, ensuring flawless brand consistency across web, print, video, and social channels."
+      "Led and mentored a high-performing team of 8 graphic designers and digital artists delivering marketing collaterals, digital graphics, e-commerce assets, and retail packaging for major UK & US enterprise accounts (including Tesco).",
+      "Designed digital marketing banners, social media ad creatives, responsive promotional landing page graphics, and in-store point-of-sale (POS/POP) retail displays.",
+      "Created corporate pitch decks, interactive brochures, multi-page catalogs, and promotional video animations connecting visual storytelling with clear messaging.",
+      "Maintained 100% on-time delivery across 25+ simultaneous design project pipelines while enforcing strict brand guideline adherence.",
+      "Streamlined digital asset management (DAM) pipelines and automated template generation for multi-market localized collateral."
     ],
-    skills: ["Team Leadership", "Key Account Strategy", "Omnichannel Campaigns", "Executive Presentations", "Multimedia & Video", "Brand Operations"]
+    skills: ["Graphic Design Leadership", "Digital & Print Collateral", "Retail Packaging & POS", "Adobe Creative Cloud", "Pitch Decks", "Motion Graphics", "Brand Operations"]
   },
   {
     id: "exp-orient",
     company: "Orient Electricals",
     website: "https://orientelectric.com/",
     location: "Noida, India",
-    role: "Executive Graphic Designer",
+    role: "Senior Graphic & Print Production Designer",
     period: "08/2013 – 06/2014",
     highlights: [
-      "Led end-to-end ATL, BTL, and TTL marketing campaigns, shaping product packaging, large-format outdoor media, in-store kiosks, and transit signage.",
-      "Mentored and managed a 3-member design team, streamlining creative workflows, setting timelines, and keeping output tightly aligned with business goals.",
-      "Managed digital channels, website operations, and UI design for Android and iOS mobile apps during key product rollouts and promotional offers.",
-      "Oversaw end-to-end print production and quality control, visiting production plants across India to ensure exact color accuracy, material quality, and brand standards.",
-      "Partnered with global sales, marketing, and logistics teams to coordinate branch requirements and drive smooth dispatch of POP/POS materials for major dealer events."
+      "Created comprehensive marketing and print collateral: product packaging die-lines, large-format outdoor hoardings (OOH), transit graphics, retail kiosks, and promotional brochures.",
+      "Managed full prepress and print quality assurance, conducting on-site press checks across printing plants to guarantee zero-defect color accuracy (CMYK/Pantone) and substrate quality.",
+      "Mentored a 3-member graphic design team, optimizing creative workflows, project milestones, and brand consistency across diverse product categories.",
+      "Designed responsive digital marketing banners, promotional website assets, and mobile UI collateral for major consumer electronics rollouts.",
+      "Collaborated with regional sales and marketing heads to coordinate the logistics and timely nationwide dispatch of POP/POS marketing collaterals for major dealer events."
     ],
-    skills: ["ATL/BTL/TTL Campaigns", "Team Leadership", "Packaging & Print Production", "Mobile App UI", "Quality Control", "POP/POS Logistics"]
+    skills: ["Print Production & Prepress", "Prepress & CMYK Specs", "Packaging Design & Die-Lines", "Marketing Collateral", "Large-Format OOH", "Team Mentorship"]
   },
   {
     id: "exp-havells",
     company: "Havells India LTD",
     website: "https://havells.com/",
     location: "Noida, India",
-    role: "Senior Graphic Designer",
+    role: "Senior Graphic & Packaging Designer",
     period: "02/2012 – 08/2013",
     highlights: [
-      "Conceptualized and executed end-to-end ATL and BTL campaigns for domestic appliances and fans, spanning national outdoor media, transit advertising, retail kiosks, and product packaging.",
-      "Governed digital experience touchpoints across official websites, mobile apps, and social channels to enhance product discovery and brand engagement.",
-      "Directed the full print production lifecycle and packaging operations, partnering with domestic and global vendors to ensure exact color fidelity and material specifications.",
-      "Coordinated with sales teams, regional branches, and warehouses to streamline the logistics and nationwide dispatch of POP/POS collaterals for major product launches.",
-      "Mentored a 3-member design team, managing project timelines, resource allocation, and interactive prototyping to consistently deliver high-impact visual assets."
+      "Conceptualized and produced high-impact product packaging, carton dies, technical manuals, and retail promotional graphics for domestic appliances with zero prepress errors across 50+ SKUs.",
+      "Designed large-scale outdoor advertising graphics, transit branding, retail display kiosks, and dealer meet marketing collateral.",
+      "Directed vendor management and prepress verification, standardizing color separation, spot UV, embossing, and paper stock selection with industrial printing vendors.",
+      "Governed brand touchpoints across print, digital ads, and social media channels to maximize brand recall and visual consistency.",
+      "Coordinated with sales and regional logistics hubs to streamline nationwide POS collateral distribution."
     ],
-    skills: ["ATL/BTL Campaigns", "Product Packaging", "Team Leadership", "Vendor & Print Governance", "Digital Touchpoints", "POP/POS Logistics"]
+    skills: ["Packaging & Die-Cuts", "Prepress Quality Control", "Pantone & Spot Color Management", "Retail Point-of-Sale (POS)", "Brand Identity", "Vendor Management"]
   },
   {
     id: "exp-spice",
     company: "Spice Labs",
     website: "https://spice-connect.com/about/",
     location: "Noida, India",
-    role: "Creative Graphic Designer",
+    role: "Creative Graphic & Mobile Visual Designer",
     period: "12/2010 – 02/2012",
     highlights: [
-      "Spearheaded the end-to-end UI/UX design lifecycle for 15+ iOS and Android applications, translating user research and feedback into wireframes, user flows, and interactive storyboards.",
-      "Designed eye-catching app store assets and lightweight UI graphics that enhanced store optimization, driving higher download rates and user retention.",
-      "Partnered closely with project managers, developers, and QA teams to navigate iOS/Android platform constraints and deliver seamless app enhancements on schedule.",
-      "Produced comprehensive UX flow decks and dynamic product promotional videos with voiceovers to effectively communicate design concepts to executive leadership and engineering teams.",
-      "Delivered omnichannel marketing collaterals—including roadshow graphics, standees, posters, and web assets—to support nationwide mobile app launches."
+      "Designed eye-catching app store marketing graphics, feature banners, iconography, and UI visual assets for 15+ mobile applications with millions of downloads.",
+      "Created dynamic motion teaser videos, animated promo banners, and social advertising graphics to drive app user engagement.",
+      "Produced comprehensive marketing collaterals including event roadshow standees, flyers, posters, and web banners for product launches.",
+      "Partnered with product managers and developers to ensure visual assets were optimized for high-density mobile screens and fast load times."
     ],
-    skills: ["Mobile UI/UX Design", "App Store Optimization", "Wireframing & Prototyping", "Multimedia Production", "Cross-Functional Collaboration", "Print & Marketing Assets"]
+    skills: ["Digital & Social Graphics", "App Store Optimization (ASO)", "Iconography & Illustration", "Motion Promo Videos", "Adobe Illustrator & Photoshop", "Event Collateral"]
   }
 ];
 
 export const EDUCATIONS: EducationItem[] = [
   {
     id: "edu-1",
-    degree: "6-Month Diploma in Digital Marketing (Grade A)",
+    degree: "Diploma in Digital Marketing & Growth Strategy (Grade A Distinction)",
     institution: "iFEEL - Institute for Future Education Entrepreneurship and Leadership",
     year: "2017",
-    note: "Completed 6-month intensive program with Grade A distinction focusing on digital growth and analytics."
+    note: "Specialization in digital visual marketing, social media design, brand communication, and creative strategy."
   },
   {
     id: "edu-2",
-    degree: "Bachelor of Arts (Second Division)",
-    institution: "Delhi University",
+    degree: "Bachelor of Arts (Recognized University Degree for EU Blue Card)",
+    institution: "University of Delhi (Delhi University)",
     year: "2007",
-    note: "Graduated with Second Division, demonstrating strong analytical reasoning and strategic communication skills."
+    note: "University degree recognized for fast-track EU Blue Card skilled employment."
   },
   {
     id: "edu-3",
-    degree: "Diploma in Computer Applications and Programming",
+    degree: "Diploma in Computer Applications, Multimedia & Graphic Software",
     institution: "Recognized Technical Institute",
     year: "2004",
-    note: "Awarded by Prestigious Scholarship for academic excellence."
+    note: "Awarded Merit Scholarship for excellence in digital design, vector illustration, and computer applications."
   }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    id: "cat-ux",
-    category: "UX & Digital Strategy",
+    id: "cat-digital-marketing",
+    category: "Digital Design, Social Media & Marketing Collaterals",
     iconName: "Figma",
     skills: [
-      { name: "Figma", level: 98, description: "Advanced design systems, interactive prototypes, auto-layout, wireframes." },
-      { name: "User Research & Testing", level: 92, description: "Heuristic evaluation, persona mapping, usability testing & feedback loops." },
-      { name: "Design Thinking Workshops", level: 95, description: "Miro & Mural facilitated co-creation sessions with global executives." },
-      { name: "Adobe Creative Cloud", level: 96, description: "Photoshop, Illustrator, InDesign, XD for high-fidelity assets." }
+      { name: "Social Media Creatives & Ad Suites", level: 97, description: "High-converting multi-format social graphics for Meta (Instagram/Facebook), LinkedIn, YouTube, and Google Display Network (GDN).", tags: ["Social Ad Suites", "Meta Ads", "LinkedIn Banners", "Display Creatives", "Promo Graphics"] },
+      { name: "Executive Presentations & Pitch Decks", level: 98, description: "High-stakes C-suite PowerPoint presentations, Keynote, interactive PDF pitch books, and strategic visual storytelling.", tags: ["Pitch Decks", "PowerPoint", "Executive Decks", "Infographic Slides", "Interactive PDFs"] },
+      { name: "Digital Interface & Figma Graphic Assets", level: 93, description: "Digital interface visual assets, promotional landing page layouts, icon design, and design component libraries in Figma.", tags: ["Figma", "Digital Design", "Landing Pages", "Iconography", "Design Systems"] },
+      { name: "Marketing Collateral & Promotional Kits", level: 96, description: "Comprehensive marketing collaterals: brochures, flyers, product one-pagers, event backdrops, roll-up banners, and promotional kits.", tags: ["Marketing Collateral", "Brochures", "Flyers", "Event Graphics", "Promotional Kits"] }
     ]
   },
   {
-    id: "cat-ai",
-    category: "AI & Enterprise Automation",
-    iconName: "Cpu",
-    skills: [
-      { name: "Custom Copilot AI Agents", level: 95, description: "Microsoft Copilot Studio & custom prompt engineering for enterprise workflows." },
-      { name: "Replit AI Workflows", level: 90, description: "Rapid prototyping and automated agent orchestration for consulting teams." },
-      { name: "Adobe Express", level: 92, description: "AI-powered quick creative workflows, social campaign assets, and rapid template design for enterprise communication." },
-      { name: "Workflow Automation", level: 94, description: "Replacing repetitive manual consulting tasks with autonomous digital agents." }
-    ]
-  },
-  {
-    id: "cat-marketing",
-    category: "Marketing & Design",
+    id: "cat-graphic-brand",
+    category: "Corporate Identity (CI/CD) & Brand Systems",
     iconName: "Palette",
     skills: [
-      { name: "Adobe Photoshop", level: 96, description: "High-fidelity digital design, image editing, UI graphics & marketing collateral.", tags: ["Digital Design", "UI Graphics", "Image Manipulation"] },
-      { name: "Adobe Illustrator", level: 95, description: "Vector graphics, brand icon systems, logos, packaging & scalability.", tags: ["Vector Artwork", "Brand Identity", "Logo Design"] },
-      { name: "Adobe InDesign", level: 92, description: "Publication layouts, multi-page brochures, brand guidelines, print collateral.", tags: ["Brochure Design", "Typography", "Editorial Layout"] },
-      { name: "Print Media Knowledge", level: 94, description: "Pre-press execution, CMYK color profiles, offset & digital print preparation, paper stocks, and large-format branding.", tags: ["Pre-press", "CMYK Specs", "Offset Print", "Large Format", "Packaging", "Bleed & Trim"] },
-      { name: "Social Media Marketing", level: 93, description: "Multi-channel paid and organic campaigns, conversion funnel optimization, ad budget management, and performance analytics.", tags: ["Brand Campaign", "CPA", "PPC", "ROAS", "A/B Testing", "Audience Targeting", "Content Strategy"] },
-      { name: "Marketing Strategy", level: 92, description: "Digital campaign planning, market research, brand positioning, performance analytics, multi-channel growth.", tags: ["Campaign Strategy", "Brand Positioning", "Performance Analytics"] },
-      { name: "Microsoft PowerPoint", level: 96, description: "Executive presentation decks, pitch books, strategic visual storytelling.", tags: ["Pitch Decks", "Executive Presentations"] },
-      { name: "Microsoft Excel", level: 90, description: "Data analysis, spreadsheets, executive reporting, business documentation.", tags: ["Data Analysis", "Reporting"] },
-      { name: "Microsoft Word", level: 90, description: "Professional documentation, client proposals, brand templates & reports.", tags: ["Proposals", "Templates"] }
+      { name: "Adobe InDesign & Editorial Layout", level: 98, description: "Advanced editorial layout, multi-page brochures, annual reports, corporate whitepapers, master pages & typographic grid systems.", tags: ["Editorial Layout", "Grid Systems", "Typography", "Catalog Design", "Brand Guidelines"] },
+      { name: "Adobe Illustrator & Vector Systems", level: 98, description: "Precision vector artwork, logo systems, corporate iconography, packaging die-lines, infographics & scalable brand assets.", tags: ["Vector Art", "Logo Architecture", "Icon Systems", "Infographics", "Packaging Dies"] },
+      { name: "Adobe Photoshop & Master Compositing", level: 98, description: "High-end photo retouching, multi-layer compositing, color correction, digital ad creatives & generative asset expansion.", tags: ["Photo Retouching", "Compositing", "Color Grading", "Social Creatives", "Generative Fill"] },
+      { name: "Typography & Layout Hierarchy", level: 96, description: "Deep mastery of micro & macro typography, Swiss grid systems, font pairing, legibility, and baseline alignment.", tags: ["Typography", "Typesetting", "Baseline Grids", "Font Pairing", "Hierarchies"] },
+      { name: "Corporate Design & Brand Manuals", level: 96, description: "Developing, modernizing, and governing comprehensive Corporate Identity (CI/CD) guidelines across global organizations.", tags: ["CI/CD Guidelines", "Brand Manuals", "Design Governance", "Visual Identity"] }
     ]
   },
   {
-    id: "cat-web",
-    category: "Web Architecture & SharePoint",
+    id: "cat-print-prepress",
+    category: "Print Production & Prepress Mastery",
     iconName: "Layout",
     skills: [
-      { name: "SharePoint Online (O365)", level: 96, description: "Enterprise intranet portal architecture, page layouts, security & metadata." },
-      { name: "HTML5, CSS3", level: 94, description: "Clean modern frontend markup, responsive design, futuristic dark layouts." },
-      { name: "JavaScript & Bootstrap", level: 88, description: "Client-side scripting, DOM manipulation, responsive UI frameworks." }
+      { name: "Prepress & Final Artwork Execution", level: 96, description: "Error-free prepress file preparation, PDF/X-4 & PDF/X-1a compliance, bleed & crop marks, trapping, overprint, and 300+ DPI raster checks.", tags: ["Prepress", "Artwork Execution", "PDF/X-4", "Bleed & Crop", "Trapping"] },
+      { name: "Color Management (CMYK & Pantone)", level: 95, description: "Standardized color separation, ICC profiles, Pantone Matching System (PMS / Spot Colors), and digital-to-print color fidelity.", tags: ["CMYK", "Pantone / PMS", "Color Separation", "ICC Profiles", "Proofing"] },
+      { name: "Packaging Design & Die-Lines", level: 94, description: "Structural packaging layouts, carton die-lines, blister packs, labeling compliance, and barcode/QR integration.", tags: ["Packaging Design", "Die-Lines", "Carton Packaging", "Die-Cuts", "Label Compliance"] },
+      { name: "Large-Format & Exhibition Print", level: 94, description: "Trade fair graphics, exhibition booth displays, roll-up banners, OOH billboards, and transit advertising.", tags: ["Exhibition Displays", "Roll-ups", "OOH Billboards", "Large Format Print", "Vehicle Graphics"] },
+      { name: "Paper Stocks & Print Finishes", level: 92, description: "Expertise in paper weights/grammages, coating types, spot UV varnish, hot foil stamping, and embossing/debossing.", tags: ["Print Finishes", "Embossing", "Spot UV", "Paper Stocks", "Foil Stamping"] }
     ]
   },
   {
-    id: "cat-media",
-    category: "Multimedia & Video Production",
+    id: "cat-motion-video",
+    category: "Motion Graphics & Video Editing",
     iconName: "Video",
     skills: [
-      { name: "Adobe Premiere Pro", level: 90, description: "Corporate video editing, promotional reels, leadership presentations." },
-      { name: "Adobe After Effects", level: 88, description: "Motion graphics, UI animation, title sequences, visual FX." },
-      { name: "Adobe Audition", level: 90, description: "Professional audio editing, voiceover cleaning, podcasts, and sound design for video assets." }
+      { name: "Adobe After Effects", level: 92, description: "2D kinetic typography, animated logo stings, social video ads (Reels/Shorts), explainer motion graphics & UI micro-animations.", tags: ["Kinetic Typography", "Motion Graphics", "Logo Animation", "Social Reels", "2D Animation"] },
+      { name: "Adobe Premiere Pro", level: 90, description: "Corporate video editing, promotional reels, leadership interviews, color grading, and multi-track pacing.", tags: ["Video Editing", "Color Grading", "Corporate Reels", "Promo Videos"] },
+      { name: "Adobe Audition", level: 88, description: "Professional audio clean-up, voiceover normalization, sound effects layering, and podcast audio mastering.", tags: ["Audio Clean-up", "Voiceover Editing", "Sound Design", "Audio Mastering"] }
+    ]
+  },
+  {
+    id: "cat-ai-workflows",
+    category: "AI Creative Acceleration & Modern Tools",
+    iconName: "Cpu",
+    skills: [
+      { name: "Adobe Firefly & Generative AI", level: 95, description: "Leveraging commercial-safe Adobe Firefly and Photoshop Generative Fill for rapid concept ideation, moodboarding, and asset extension.", tags: ["Adobe Firefly", "Generative Fill", "Concepting", "Moodboards", "Asset Scaling"] },
+      { name: "AI Production Workflows", level: 94, description: "Automating repetitive graphic asset variations, multi-format localization, and prompt-engineered visual prototyping.", tags: ["Workflow Automation", "Production Velocity", "Asset Batching", "Efficiency (3x-5x)"] },
+      { name: "SharePoint & Digital Asset Portals", level: 92, description: "Structuring enterprise visual asset management (DAM), intranet brand portals, and design resource repositories.", tags: ["SharePoint Online", "Asset Management", "Brand Portals", "Information Architecture"] }
     ]
   }
 ];
 
 export const PROJECTS: ProjectItem[] = [
   {
-    id: "proj-copilot-agent",
-    title: "Enterprise Copilot AI & UX Workflow System",
-    category: "ux-design",
-    client: "EY Consulting Practice",
-    summary: "Architected a custom AI Copilot agent and enterprise UX workflow system in Replit & SharePoint, transforming executive reporting and client deliverables.",
-    problem: "Consultants were spending 15+ hours weekly synthesizing lengthy client documents and manually creating executive status decks.",
-    solution: "Architected a custom prompt-engineered AI agent integrated into EY's secure Copilot workspace, featuring instant summary generation and automated slide outlines.",
+    id: "proj-ey-brand-governance",
+    title: "Global Corporate Design & Executive Publication Suite",
+    category: "graphic-design",
+    client: "Ernst & Young Global Limited (EY)",
+    summary: "Engineered high-stakes corporate publications, annual report layouts, C-suite pitch books, and global Corporate Identity (CI/CD) design systems.",
+    problem: "Global consulting service lines required consistent, high-impact publication layouts adhering strictly to international brand standards under tight deadlines.",
+    solution: "Developed modular InDesign publication grid templates, standardized typographic hierarchies, and interactive pitch book frameworks adopted firm-wide.",
     outcomes: [
-      "Reduced report creation time by 60%",
-      "Adopted across 500+ senior consultants",
-      "Recognized with EY Artificial Intelligence Engineering Bronze Badge 2025"
+      "Adopted across 500+ global consultants for high-value C-suite client pitches",
+      "Reduced publication formatting turnaround time by 50%",
+      "Recognized with 4 consecutive EY Achiever Extraordinaire Awards (2023-2026)"
     ],
-    techStack: ["Copilot Studio", "Figma", "User Research", "Wireframing", "SharePoint"],
+    techStack: ["Adobe InDesign", "Corporate Identity (CI/CD)", "Typography", "Editorial Layout", "PowerPoint", "Brand Guidelines"],
     featured: true,
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    id: "proj-design-thinking",
-    title: "Executive Design Thinking & Interactive Wireframing",
-    category: "ux-design",
-    client: "EY Global Clients",
-    summary: "Facilitated high-stakes co-creation design workshops using Figma and Miro to align C-suite executives on complex digital transformation product strategies.",
-    problem: "Diverse executive stakeholders held conflicting priorities for key digital transformation initiatives.",
-    solution: "Designed interactive Miro workshop templates and rapid Figma wireframes to test assumptions live in 2-day design sprints.",
-    outcomes: [
-      "Aligned C-suite vision in under 48 hours",
-      "Accelerated project kickoff phase by 4 weeks",
-      "Awarded EY Innovation Design Thinking Badge"
-    ],
-    techStack: ["Figma", "Miro", "Design Thinking", "User Research", "Wireframing"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    id: "proj-marketing-collateral-wns",
-    title: "Global Brand & Campaign Marketing Collateral Suite",
-    category: "marketing-collateral",
-    client: "WNS Global Services (USA & UK Accounts)",
-    summary: "Directed multi-channel marketing campaigns, promotional microsites, and localized advertising collateral pipelines across international accounts.",
-    problem: "USA & UK client campaigns required rapid turnaround across varied localized web formats and digital advertising channels.",
-    solution: "Established modular marketing design systems, digital campaign assets, and automated brand collateral pipelines.",
-    outcomes: [
-      "100% on-time delivery across 25+ simultaneous campaign deliverables",
-      "Boosted engagement rate by 35% on digital campaign landing pages"
-    ],
-    techStack: ["Adobe Photoshop", "Illustrator", "Digital Collateral", "Microsites", "Campaign Strategy"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1542744094-3a31216915e2?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    id: "proj-marketing-collateral-havells",
-    title: "Multi-Channel Retail & Digital Marketing Campaigns",
-    category: "marketing-collateral",
-    client: "Havells India & Orient Electricals",
-    summary: "Created high-converting marketing collateral ecosystems, point-of-sale displays, hoardings, and digital advertising assets for nationwide product launches.",
-    problem: "New appliance product lines needed aggressive market penetration across competitive retail and digital channels.",
-    solution: "Produced vibrant, color-accurate marketing collaterals, digital banners, standees, and retail promotional graphics.",
-    outcomes: [
-      "Rolled out across 1,000+ retail distribution outlets in India",
-      "Achieved 28% increase in retail point-of-sale engagement"
-    ],
-    techStack: ["Marketing Collateral", "Point of Sale", "Large Format", "Campaign Assets", "Photoshop"],
-    featured: false,
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: "proj-fmeg-packaging",
-    title: "FMEG Product Packaging & Brand Graphics Ecosystem",
+    title: "FMEG Product Packaging, Die-Lines & Prepress Ecosystem",
     category: "graphic-design",
     client: "Havells India & Orient Electricals",
-    summary: "Designed comprehensive brand graphics, vector illustration systems, packaging layouts, and pre-press graphics for domestic appliances.",
-    problem: "Legacy packaging lacked visual pop and failed to stand out on retail shelves.",
-    solution: "Engineered scalable vector brand identities, custom packaging dies, CMYK color-accurate pre-press files, and retail graphic assets.",
+    summary: "Designed comprehensive brand graphics, vector packaging layouts, structural die-cuts, and error-free prepress files for domestic consumer appliances.",
+    problem: "Legacy packaging lacked shelf impact, and multi-factory printing vendors faced color inconsistencies across offset packaging runs.",
+    solution: "Engineered scalable vector brand identities, custom carton packaging dies, CMYK/Pantone color-accurate prepress files (PDF/X-4), and on-site print quality checks.",
     outcomes: [
-      "Zero pre-press errors across 50+ packaging variants",
-      "Flawless vendor production with 100% brand guideline adherence"
+      "Zero prepress errors across 50+ packaging SKUs",
+      "Flawless vendor production with 100% brand guideline adherence and consistent Pantone color fidelity",
+      "Rolled out across 1,000+ retail outlets nationwide"
     ],
-    techStack: ["Adobe Illustrator", "Photoshop", "Pre-Press CMYK", "Packaging Design", "Vector Graphics"],
+    techStack: ["Adobe Illustrator", "Photoshop", "Print Production & Prepress", "Packaging Die-Lines", "CMYK/Pantone Specs", "Quality Control"],
     featured: true,
     image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?q=80&w=1000&auto=format&fit=crop"
   },
   {
-    id: "proj-graphic-design-identity",
-    title: "Corporate Visual Identity & Large-Format Brand Systems",
-    category: "graphic-design",
-    client: "Spice Labs & Corporate Clients",
-    summary: "Conceptualized and executed end-to-end visual identity systems, corporate iconography, event graphics, and large-format brand displays.",
-    problem: "Fast-moving mobile and event campaigns required cohesive high-impact visual branding under tight deadlines.",
-    solution: "Crafted unified typography, vector illustration libraries, standees, and promotional posters for nationwide roadshows.",
+    id: "proj-marketing-collateral-wns",
+    title: "Retail & E-Commerce Marketing Collateral Suite",
+    category: "marketing-collateral",
+    client: "WNS Global Services (UK & US Retail Accounts / Tesco)",
+    summary: "Designed multi-format digital promotional graphics, e-commerce banners, social media assets, and retail POS displays.",
+    problem: "International retail clients required rapid turnaround across varied localized digital graphic formats and print POS materials.",
+    solution: "Established modular graphic design templates, digital asset kits, social media creative suites, and streamlined print collateral files.",
     outcomes: [
-      "Delivered 100+ production-ready graphic design assets",
-      "Streamlined brand recognition across print and digital media"
+      "100% on-time delivery across 25+ simultaneous international design deliverables",
+      "Boosted promotional banner engagement rate by 35%"
     ],
-    techStack: ["Graphic Design", "Brand Identity", "Iconography", "InDesign", "Illustrator"],
+    techStack: ["Adobe Photoshop", "Illustrator", "Digital Graphics", "Social Media Ads", "Retail POS", "Marketing Collateral"],
+    featured: true,
+    image: "https://images.unsplash.com/photo-1542744094-3a31216915e2?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    id: "proj-large-format-ooh",
+    title: "Large-Format OOH, Exhibition Booths & Brand Graphics",
+    category: "marketing-collateral",
+    client: "Orient Electricals & Havells India",
+    summary: "Created high-impact marketing collaterals, point-of-sale displays, large-format hoardings (OOH), and trade fair exhibition graphics.",
+    problem: "Domestic appliance product lines needed high-visibility visual branding across competitive retail and outdoor media channels.",
+    solution: "Produced vibrant, color-accurate large-format billboards, transit graphics, dealer meet backdrops, and retail promotional graphics.",
+    outcomes: [
+      "Deployed across major national highways and 1,000+ retail distribution outlets",
+      "Achieved 28% increase in retail point-of-sale engagement"
+    ],
+    techStack: ["Large Format Print", "OOH Billboards", "Exhibition Displays", "POS/POP", "Photoshop", "Illustrator"],
     featured: false,
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: "proj-motion-graphics-suite",
     title: "Dynamic Motion Graphics & Brand Video Animation Suite",
     category: "motion-graphics",
-    client: "Havells India & WNS Global Services",
-    summary: "Engineered high-impact 2D/3D kinetic typography, animated promotional videos, UI micro-animations, and broadcast motion graphics sequences.",
-    problem: "Digital campaigns and product launches required captivating animated content to stand out on social media and digital displays.",
+    client: "WNS Global Services & Havells India",
+    summary: "Engineered high-impact 2D kinetic typography, animated promotional videos, social media reels, logo stings, and broadcast motion sequences.",
+    problem: "Digital marketing and product launches required captivating animated content for social media and digital displays.",
     solution: "Designed After Effects animation templates, kinetic text compositions, logo stings, and sound-synchronized promo videos.",
     outcomes: [
-      "Increased video completion rate by 45% across social ad channels",
-      "Standardized motion graphics guidelines across brand teams"
+      "Increased video completion rate by 45% across social media channels",
+      "Standardized motion graphics templates across brand teams"
     ],
-    techStack: ["Adobe After Effects", "Premiere Pro", "Kinetic Typography", "Motion Graphics", "UI Animation"],
+    techStack: ["Adobe After Effects", "Premiere Pro", "Kinetic Typography", "Motion Graphics", "Social Video Reels"],
     featured: true,
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop"
   },
   {
-    id: "proj-document-design-decks",
-    title: "Executive Presentation & Publication Document Architecture",
-    category: "document-design",
-    client: "Ernst & Young Global Limited",
-    summary: "Engineered high-stakes executive pitch decks, multi-page corporate publications, and standardized enterprise document templates.",
-    problem: "EY leadership required sophisticated, brand-compliant document layouts for high-value client proposals and global service line publications.",
-    solution: "Designed custom PowerPoint pitch books, InDesign brochure systems, and Word document templates with strict typographic hierarchy.",
+    id: "proj-ai-workflow-acceleration",
+    title: "AI-Augmented Creative Production & Asset Scaling Workflow",
+    category: "graphic-design",
+    client: "Ernst & Young Global Limited (EY)",
+    summary: "Integrated Adobe Firefly, Photoshop Generative AI, and automated prompt workflows into enterprise graphic design pipelines, boosting production speed.",
+    problem: "Creative teams were spending excessive hours on manual photo expansion, background replacement, and multi-format asset resizing.",
+    solution: "Pioneered structured generative AI workflows for rapid concept moodboarding, commercial-safe generative asset extension, and automated batch creation.",
     outcomes: [
-      "Adopted across global consulting teams for C-suite pitches",
-      "Reduced proposal formatting time by 50%"
+      "Accelerated creative concept turnaround by 60%",
+      "Maintained 100% brand guideline adherence with zero copyright risk",
+      "Awarded EY Artificial Intelligence Engineering Bronze Badge 2025"
     ],
-    techStack: ["Document Design", "PowerPoint", "Adobe InDesign", "Editorial Layout", "Typography"],
+    techStack: ["Adobe Firefly", "Photoshop Generative AI", "AI Workflows", "Graphic Design", "Production Velocity"],
     featured: true,
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    id: "proj-document-design-sharepoint",
-    title: "SharePoint Enterprise Document & Portal Layouts",
-    category: "document-design",
-    client: "EY Consulting Practice",
-    summary: "Architected structured document layout taxonomies and portal information hierarchy within SharePoint Online for global knowledge management.",
-    problem: "Enterprise documents were scattered across unorganized drives without visual hierarchy or searchable metadata.",
-    solution: "Created clear page templates, document layout standards, and automated cataloging taxonomies.",
-    outcomes: [
-      "Organized 10,000+ enterprise documents",
-      "Improved document retrieval speed by 70%"
-    ],
-    techStack: ["SharePoint", "Information Architecture", "Document Layout", "O365", "Metadata"],
-    featured: false,
-    image: "https://images.unsplash.com/photo-1450133064473-71024230f91b?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    id: "proj-3d-game-design-assets",
-    title: "Interactive 3D Game Environments & Motion Asset Suite",
-    category: "3d-game-design",
-    client: "Spice Labs & Mobile Gaming Studio",
-    summary: "Designed 3D game assets, level concepts, interactive environment textures, and dynamic motion graphics for mobile gaming titles.",
-    problem: "Mobile games needed lightweight, high-performance 3D visual assets optimized for mobile GPUs.",
-    solution: "Created low-poly 3D models, UV textured game environments, UI overlays, and After Effects motion animation sequences.",
-    outcomes: [
-      "Engineered 3D assets for mobile games downloaded by millions",
-      "Maintained 60fps rendering performance on target devices"
-    ],
-    techStack: ["3D Modeling", "Game Design", "After Effects", "Motion Graphics", "Photoshop"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    id: "proj-3d-game-design-concepts",
-    title: "3D Concept Visualization & Motion Prototyping",
-    category: "3d-game-design",
-    client: "Creative Media Tech",
-    summary: "Produced 3D spatial concept visualizations, motion graphic teasers, and interactive UI prototypes for immersive game experiences.",
-    problem: "New game concepts needed compelling 3D visual previews for stakeholder funding and player pre-registration.",
-    solution: "Developed rendered 3D scenes, particle effects, game UI HUDs, and motion trailers.",
-    outcomes: [
-      "Secured 100% greenlight approval from creative directors",
-      "Elevated visual fidelity across game promo trailers"
-    ],
-    techStack: ["3D Game Design", "Render Pipeline", "Premiere Pro", "UI HUDs", "Motion FX"],
-    featured: false,
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop"
   }
 ];
+
