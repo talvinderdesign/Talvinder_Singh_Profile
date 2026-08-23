@@ -1,0 +1,9 @@
+{
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/((?!assets/|badges/|marketing-collateral/|ux-design/|motion-graphics/|document-design/|graphic-design/|3d-game-design/|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

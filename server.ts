@@ -9,8 +9,8 @@ async function startServer() {
 
   app.use(express.json());
 
-  // API Routes
-  app.get("/api/health", (_req, res) => {
+  // Health Check Endpoints
+  app.get(["/api/health", "/healthz", "/_health"], (_req, res) => {
     res.json({ status: "ok", timestamp: new Date().toISOString() });
   });
 
@@ -103,7 +103,9 @@ Keep your answers concise, structured with bullet points where appropriate, and 
   });
 
   // Vite middleware for development vs static serve for production
-  if (process.env.NODE_ENV !== "production") {
+  const isDevelopment = process.env.NODE_ENV === "development";
+
+  if (isDevelopment) {
     const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
@@ -111,16 +113,39 @@ Keep your answers concise, structured with bullet points where appropriate, and 
     });
     app.use(vite.middlewares);
   } else {
-    const distPath = path.join(process.cwd(), "dist");
+    const fs = await import("fs");
+    let distPath = path.resolve(process.cwd(), "dist");
+    if (!fs.existsSync(path.join(distPath, "index.html"))) {
+      distPath = path.resolve(__dirname);
+    }
+    if (!fs.existsSync(path.join(distPath, "index.html"))) {
+      distPath = path.resolve(__dirname, "../dist");
+    }
+
     app.use(express.static(distPath));
     app.get("*", (_req, res) => {
-      res.sendFile(path.join(distPath, "index.html"));
+      const indexPath = path.join(distPath, "index.html");
+      if (fs.existsSync(indexPath)) {
+        res.sendFile(indexPath);
+      } else {
+        res.status(404).send("Application index.html not found.");
+      }
     });
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
+  const server = app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server running on http://0.0.0.0:${PORT}`);
   });
+
+  const handleShutdown = () => {
+    console.log("Shutting down server gracefully...");
+    server.close(() => {
+      process.exit(0);
+    });
+  };
+
+  process.on("SIGTERM", handleShutdown);
+  process.on("SIGINT", handleShutdown);
 }
 
 function getSimulatedAiResponse(query: string): string {
@@ -149,4 +174,7 @@ function getSimulatedAiResponse(query: string): string {
   return `Talvinder Singh is a Senior Graphic Designer with 15+ years of experience in Digital Design, Social Media Creatives, Marketing Collaterals, Corporate Identity (CI/CD), Print Production & Prepress, and Motion Graphics. He is eligible for the EU Blue Card with immediate relocation availability. Feel free to ask about his portfolio, technical tools, or experience!`;
 }
 
-startServer();
+startServer().catch((err) => {
+  console.error("Fatal error starting server:", err);
+  process.exit(1);
+});

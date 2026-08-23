@@ -1,25 +1,21 @@
 import React from 'react';
 import { Award, ExternalLink, CheckCircle2 } from 'lucide-react';
 import { EY_BADGES } from '../data/resumeData';
+import { BADGE_BASE64 } from '../data/badgeImages';
 
-// Vite static asset imports for robust bundling across Vercel and production deployments
-import eyAiBadge from '../assets/images/badges/ey-ai-2025.png';
-import eyCyberBadge from '../assets/images/badges/ey-cybersecurity-2024.png';
-import eyInnovationBadge from '../assets/images/badges/ey-innovation-2021.png';
-import eyDigitalBadge from '../assets/images/badges/ey-digital-2021.png';
-
-const assetBadgeMap: Record<string, string> = {
-  'badge-ai-2025': eyAiBadge,
-  'badge-cyber-2024': eyCyberBadge,
-  'badge-innovation-2021': eyInnovationBadge,
-  'badge-digital-2021': eyDigitalBadge,
+// Fallback images map
+const badgeDirectMap: Record<string, string> = {
+  'badge-ai-2025': BADGE_BASE64.ai,
+  'badge-cyber-2024': BADGE_BASE64.cyber,
+  'badge-innovation-2021': BADGE_BASE64.innovation,
+  'badge-digital-2021': BADGE_BASE64.digital,
 };
 
 const fallbackImageMap: Record<string, string[]> = {
-  'badge-ai-2025': ['/badges/ey-ai-2025.png', '/Artificial intelligence badge.png'],
-  'badge-cyber-2024': ['/badges/ey-cybersecurity-2024.png', '/cybersecurity badge.png'],
-  'badge-innovation-2021': ['/badges/ey-innovation-2021.png', '/Innovation badge.png'],
-  'badge-digital-2021': ['/badges/ey-digital-2021.png', '/digital badge.png'],
+  'badge-ai-2025': ['/badges/ey-ai-2025.png', '/artificial-intelligence-badge.png', '/Artificial%20intelligence%20badge.png'],
+  'badge-cyber-2024': ['/badges/ey-cybersecurity-2024.png', '/cybersecurity-badge.png', '/cybersecurity%20badge.png'],
+  'badge-innovation-2021': ['/badges/ey-innovation-2021.png', '/innovation-badge.png', '/Innovation%20badge.png'],
+  'badge-digital-2021': ['/badges/ey-digital-2021.png', '/digital-badge.png', '/digital%20badge.png'],
 };
 
 interface BadgesSectionProps {
@@ -48,7 +44,7 @@ export const BadgesSection: React.FC<BadgesSectionProps> = () => {
       {/* Badges Grid displaying full original badges */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {EY_BADGES.map((badge) => {
-          const initialSrc = assetBadgeMap[badge.id] || badge.imageUrl;
+          const imageSrc = badgeDirectMap[badge.id] || badge.imageUrl;
 
           return (
             <div 
@@ -64,7 +60,7 @@ export const BadgesSection: React.FC<BadgesSectionProps> = () => {
                 {/* Original Unaltered Official EY Badge Image */}
                 <div className="py-2 flex justify-center items-center h-44 w-full">
                   <img 
-                    src={initialSrc} 
+                    src={imageSrc} 
                     alt={badge.title}
                     className="max-h-40 w-auto max-w-full object-contain filter drop-shadow-md group-hover:scale-105 transition-transform duration-300"
                     referrerPolicy="no-referrer"
@@ -132,4 +128,5 @@ export const BadgesSection: React.FC<BadgesSectionProps> = () => {
     </section>
   );
 };
+
 
