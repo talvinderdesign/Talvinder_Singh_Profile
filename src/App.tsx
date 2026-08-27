@@ -13,13 +13,25 @@ import { ResumePdfView } from './components/ResumePdfView';
 import { ProjectItem } from './types';
 
 export default function App() {
-  const [activeSection, setActiveSection] = useState<string>('home');
+  const [activeSection, setActiveSection] = useState<string>('portfolio');
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(null);
   const [showPdfView, setShowPdfView] = useState<boolean>(false);
 
-  // Scroll to top on initial load
+  // Automatically scroll to Portfolio section on initial landing
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // Check if there is an explicit hash, otherwise default to portfolio
+    const hash = window.location.hash ? window.location.hash.replace('#', '') : 'portfolio';
+    const targetSection = hash || 'portfolio';
+
+    const timer = setTimeout(() => {
+      const element = document.getElementById(targetSection);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+        setActiveSection(targetSection);
+      }
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, []);
 
   // Smooth Scroll handler

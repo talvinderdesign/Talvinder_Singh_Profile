@@ -15,9 +15,7 @@ export const PERSONAL_INFO = {
   eyAwardsCount: "5+",
   clientSatisfaction: "100%",
   languages: [
-    { language: "English", level: "Fluent / C2 Professional Working Proficiency" },
-    { language: "German", level: "Basic / A1-A2 (Actively learning for European integration)" },
-    { language: "Hindi & Punjabi", level: "Native / Bilingual Proficiency" }
+    { language: "English", level: "B2 Level Fluent (IELTS Approved)" }
   ],
   workAuthorization: "EU Blue Card Eligible — Fast-Track Skilled Employment (Recognized Academic Degree & 15+ Years Senior Industry Record)",
   bio: "Senior Graphic Designer with 15+ years of hands-on design excellence across global enterprises (including Ernst & Young, WNS, Havells, and Orient). I specialize in Digital Design, high-impact Social Media Creatives & Marketing Collaterals, Corporate Identity (CI/CD), end-to-end Print Production & Prepress, and Motion Graphics — leveraging modern AI tools (Adobe Firefly & Generative AI) for 3x–5x faster production velocity while maintaining flawless brand fidelity. Eligible for the EU Blue Card with immediate relocation availability."
@@ -244,8 +242,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     category: "AI Creative Acceleration & Modern Tools",
     iconName: "Cpu",
     skills: [
-      { name: "Adobe Firefly & Generative AI", level: 95, description: "Leveraging commercial-safe Adobe Firefly and Photoshop Generative Fill for rapid concept ideation, moodboarding, and asset extension.", tags: ["Adobe Firefly", "Generative Fill", "Concepting", "Moodboards", "Asset Scaling"] },
-      { name: "AI Production Workflows", level: 94, description: "Automating repetitive graphic asset variations, multi-format localization, and prompt-engineered visual prototyping.", tags: ["Workflow Automation", "Production Velocity", "Asset Batching", "Efficiency (3x-5x)"] },
+      { name: "Adobe Firefly & Generative AI", level: 95, description: "Leveraging commercial-safe Adobe Firefly and Photoshop Generative Fill for rapid concept ideation, moodboarding, and high-fidelity asset extension.", tags: ["Adobe Firefly", "Generative Fill", "Concepting", "Moodboards", "Asset Scaling"] },
+      { name: "AI Acceleration & Rapid Prototyping", level: 94, description: "Harnessing Microsoft Copilot, Replit, and AI prompt engineering to accelerate digital prototyping, creative asset generation, and workflow automation.", tags: ["Microsoft Copilot", "Replit", "Workflow Automation", "Production Velocity", "Efficiency (3x-5x)"] },
       { name: "SharePoint & Digital Asset Portals", level: 92, description: "Structuring enterprise visual asset management (DAM), intranet brand portals, and design resource repositories.", tags: ["SharePoint Online", "Asset Management", "Brand Portals", "Information Architecture"] }
     ]
   }

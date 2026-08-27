@@ -33,10 +33,10 @@ export const AboutSection: React.FC = () => {
             <div className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400">
               <Users className="w-5 h-5" />
             </div>
-            <h3 className="text-lg font-semibold text-white">Digital Design, Social Media & Marketing</h3>
+            <h3 className="text-lg font-semibold text-white">Graphic Design & Marketing Collaterals</h3>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
-            Crafting high-impact social media creatives (Meta, LinkedIn, YouTube), digital promotional banners, executive C-suite pitch decks (PowerPoint), responsive landing page assets, and promotional marketing collaterals.
+            Crafting high-impact graphic design solutions, promotional marketing collaterals, executive C-suite pitch decks (PowerPoint), SharePoint intranet & portal design, and social media creatives (Meta, LinkedIn, YouTube).
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export const AboutSection: React.FC = () => {
             <h3 className="text-lg font-semibold text-white">AI Creative Acceleration & Motion Graphics</h3>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
-            Pioneering Adobe Firefly, Photoshop Generative AI, and custom prompt workflows for 3x–5x faster production velocity, coupled with 2D kinetic typography and video editing (After Effects, Premiere Pro).
+            Harnessing Adobe Firefly, Microsoft Copilot, Replit, and Photoshop Generative AI for rapid ideation, code-assisted UI prototypes, and 3x–5x faster production velocity, coupled with kinetic typography and video editing (After Effects, Premiere Pro).
           </p>
         </div>
       </div>
@@ -97,7 +97,7 @@ export const AboutSection: React.FC = () => {
         </div>
         <div>
           <span className="text-slate-300 font-semibold uppercase block mb-1">Language Skills</span>
-          <span className="text-white">English (C2 Fluent) • German (A1/A2)</span>
+          <span className="text-white">English (B2 Level Fluent - IELTS Approved)</span>
         </div>
         <div>
           <span className="text-slate-300 font-semibold uppercase block mb-1">Work Authorization</span>

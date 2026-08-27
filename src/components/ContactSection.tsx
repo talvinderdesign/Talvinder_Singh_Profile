@@ -44,7 +44,7 @@ export const ContactSection: React.FC = () => {
       {/* Section Eyebrow Header */}
       <div className="flex items-center gap-3">
         <span className="text-xs font-mono text-emerald-400 uppercase tracking-widest px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-          08 // CONTACT
+          07 // CONTACT
         </span>
       </div>
 

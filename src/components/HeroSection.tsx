@@ -66,7 +66,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onOpenPdf 
           <div>
             <div className="text-sm font-semibold text-white">European Relocation & EU Blue Card Ready</div>
             <div className="text-xs text-slate-400">
-              Eligible for fast-track EU Blue Card skilled employment with recognized university degree & 15+ years international design record. Fluent English (C2) & basic German (A1/A2).
+              Eligible for fast-track EU Blue Card skilled employment with recognized university degree & 15+ years international design record. Fluent English (B2 Level - IELTS Approved).
             </div>
           </div>
         </div>

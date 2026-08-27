@@ -5,7 +5,7 @@ import { PERSONAL_INFO, EXPERIENCES, EY_BADGES, EY_AWARDS, SKILL_CATEGORIES } fr
 
 async function startServer() {
   const app = express();
-  const PORT = Number(process.env.PORT) || 3000;
+  const PORT = 3000;
 
   app.use(express.json());
 
@@ -103,9 +103,7 @@ Keep your answers concise, structured with bullet points where appropriate, and 
   });
 
   // Vite middleware for development vs static serve for production
-  const isDevelopment = process.env.NODE_ENV === "development";
-
-  if (isDevelopment) {
+  if (process.env.NODE_ENV !== "production") {
     const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
@@ -113,28 +111,15 @@ Keep your answers concise, structured with bullet points where appropriate, and 
     });
     app.use(vite.middlewares);
   } else {
-    const fs = await import("fs");
-    let distPath = path.resolve(process.cwd(), "dist");
-    if (!fs.existsSync(path.join(distPath, "index.html"))) {
-      distPath = path.resolve(__dirname);
-    }
-    if (!fs.existsSync(path.join(distPath, "index.html"))) {
-      distPath = path.resolve(__dirname, "../dist");
-    }
-
+    const distPath = path.join(process.cwd(), "dist");
     app.use(express.static(distPath));
     app.get("*", (_req, res) => {
-      const indexPath = path.join(distPath, "index.html");
-      if (fs.existsSync(indexPath)) {
-        res.sendFile(indexPath);
-      } else {
-        res.status(404).send("Application index.html not found.");
-      }
+      res.sendFile(path.join(distPath, "index.html"));
     });
   }
 
   const server = app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Server running on http://0.0.0.0:${PORT}`);
+    console.log(`Server running on http://localhost:${PORT}`);
   });
 
   const handleShutdown = () => {

@@ -50,7 +50,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = () => {
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <span className="text-xs font-mono text-emerald-400 uppercase tracking-widest px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-            06 // Portfolio
+            06 // PORTFOLIO
           </span>
         </div>
       </div>

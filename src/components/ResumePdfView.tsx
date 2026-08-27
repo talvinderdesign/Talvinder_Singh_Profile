@@ -70,7 +70,7 @@ export const ResumePdfView: React.FC<ResumePdfViewProps> = ({ onClose }) => {
                 EU Blue Card Eligible
               </span>
               <span className="px-2.5 py-0.5 rounded bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">
-                Languages: English (C2 Fluent) • German (A1/A2 Basic)
+                Languages: English (B2 Level Fluent - IELTS Approved)
               </span>
             </div>
           </div>
@@ -122,7 +122,7 @@ export const ResumePdfView: React.FC<ResumePdfViewProps> = ({ onClose }) => {
               </div>
               <div className="p-2.5 rounded-xl bg-[#181c28] border border-white/5 space-y-1">
                 <div className="font-bold text-white">Motion Graphics & AI Acceleration:</div>
-                <div className="text-slate-300 text-[11px]">After Effects 2D Motion, Kinetic Typography, Premiere Pro, Adobe Firefly Generative AI (3x-5x Speed).</div>
+                <div className="text-slate-300 text-[11px]">After Effects 2D Motion, Kinetic Typography, Premiere Pro, Adobe Firefly, Microsoft Copilot, Replit (3x-5x Speed).</div>
               </div>
             </div>
           </div>
